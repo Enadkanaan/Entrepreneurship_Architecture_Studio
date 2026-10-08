@@ -1,0 +1,3805 @@
+[
+  {
+    "kind": "text",
+    "text": "MCIT DIGITAL INNOVATION ENABLEMENT",
+    "style": ""
+  },
+  {
+    "kind": "text",
+    "text": "Entrepreneurship Program Architecture",
+    "style": ""
+  },
+  {
+    "kind": "text",
+    "text": "A maturity-based design for the integrated startup portfolio: DIC, Local Growth Acceleration, TASMU Accelerator, Scale Now and the MCIT Alumni Program",
+    "style": ""
+  },
+  {
+    "kind": "text",
+    "text": "Reference: Enablement Programs Integrations Framework (September 2026)  |  Draft for management discussion  |  October 2026",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "1. Executive Summary",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "The reference framework (MCIT Enablement Programs Integrations Framework, September 2026) gets the operating model broadly right: one section, one startup record, shared capabilities, common gates and an alumni loop. Its weakness is the program architecture underneath. Stages are defined by programs rather than by startup maturity, the gates test attributes that are easy to present and hard to verify, and the most consequential development step in a startup’s life — moving from early traction to product-market fit — has no clear owner.",
+    "style": ""
+  },
+  {
+    "kind": "text",
+    "text": "This architecture rebuilds the portfolio from the startup outward. It starts with what must become true about a venture at each step, defines the evidence that proves it, and only then assigns programs. The result keeps all five reference propositions, but sharpens each one and changes how startups move between them.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "Seven headline recommendations",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "text",
+    "text": "Adopt a 10-stage Venture Maturity Model (M0–M9) as the single language for entry, exit, routing and reporting. Programs map to maturity bands; completing a program never moves a startup up a stage on its own.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Assess maturity on two axes: venture maturity and market position. An international company can be at repeatable growth at home but at market validation in Qatar. The reference framework conflates the two, which is why TASMU Soft Landing and Scale Now sit awkwardly in the same funnel.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Give Local Growth Acceleration one job: take startups from early traction to evidenced product-market fit and a first repeatable acquisition channel (M5 → M7). This closes the biggest gap in the current journey and removes its overlap with DIC.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Reposition DIC Pre-incubation as a light, high-volume, open-access track with no company-registration requirement. Requiring registration at ideation adds cost before the idea is tested, and conflicts with the reference entry gate that already asks for a validated problem.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Separate \"completion\", \"graduation\" and \"qualification\". Completion = finished the program. Graduation = met the program exit gate. Qualification = met the entry gate of a different program, assessed independently.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Make gate decisions independent of the program that delivered the support. Program leads present evidence; a Gate Panel with at least one external investor or operator decides Readiness and Scale gates. This removes the incentive to over-graduate.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Run investment readiness, market access/pilots, regulatory navigation and specialist technical support as cross-program services, not new programs. Each is needed at several stages, and turning them into programs would create more handovers and duplicate cohorts.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "WHERE INSTITUTIONAL SUPPORT SHOULD STOP\nDirect MCIT support should taper once a startup has (a) evidenced repeatable growth, (b) raised priced institutional capital or is self-funding growth, and (c) entered at least one market outside Qatar with paying customers. From that point the relationship becomes an alumni and ecosystem relationship (give-back, policy input, deal flow) rather than a subsidy relationship. Scale Now is the last subsidised intervention, and it should be cost-shared."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "What this means for management",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Decision",
+        "Effect"
+      ],
+      [
+        "Approve the maturity model and two-axis assessment",
+        "One definition of progress across all programs, and comparable KPIs."
+      ],
+      [
+        "Re-scope Local Growth to the PMF band (M5–M7)",
+        "Closes the traction-to-PMF gap and gives the new program a distinct, defensible role."
+      ],
+      [
+        "Introduce an independent Gate Panel for the Readiness and Scale gates",
+        "Credible graduation data and less gaming."
+      ],
+      [
+        "Re-base historical \"graduates\" on the new definitions",
+        "The 415+ / 76+ / 30 figures are not comparable today, and the KPI baseline depends on fixing this."
+      ],
+      [
+        "Confirm the four cross-program services and their owners",
+        "Avoids building new programs for capital, market access, regulation and technology."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "2. Entrepreneurship Portfolio Thesis",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "heading",
+    "text": "2.1 What the portfolio is for",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "Thesis: MCIT should increase the number of Qatar-anchored technology companies that reach repeatable growth and expand internationally. It does this by lowering the cost and time of generating credible evidence at each maturity step, while correcting specific market failures that private capital and markets will not correct on their own.",
+    "style": ""
+  },
+  {
+    "kind": "text",
+    "text": "That makes the portfolio an evidence-generation system, not a training system. Every intervention exists to help a startup produce the next piece of decision-grade evidence (problem, solution, willingness to pay, retention, unit economics, repeatability, transferability to a new market) faster and more cheaply than it could alone.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "2.2 Stages covered and the gap at each",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Maturity band",
+        "Market / ecosystem gap (hypothesis)",
+        "Justified role of government / operator",
+        "Intensity"
+      ],
+      [
+        "M0–M2 Ideation to solution validation",
+        "Information gaps: founders lack method, access to customers and peers. Private capital rarely funds this band.",
+        "Catalyst. Build the pipeline, teach method, open customer access. Keep cost per founder low; do not pick winners.",
+        "Low cost, high volume"
+      ],
+      [
+        "M3–M5 MVP to early traction",
+        "Capability and credibility gaps: product build, first customers, first cheque. Angel market depth is unverified (assumption A2).",
+        "Builder. Structured incubation, product support, first-customer access, investor-readiness preparation.",
+        "Medium cost, selective"
+      ],
+      [
+        "M5–M7 Early traction to repeatable growth",
+        "Coordination gap: corporates and government are hard to sell to; local Series-A-ready deal flow is thin.",
+        "Market maker. Pilots that convert into contracts, investor access gated by readiness, commercial engine building.",
+        "High cost per startup, highly selective"
+      ],
+      [
+        "Qatar market entry for international companies",
+        "Information and access gap for foreign firms; Qatar needs imported capability in priority sectors.",
+        "Attractor. Soft landing, regulatory navigation, buyer access, with conditions on local substance.",
+        "Medium, conditional"
+      ],
+      [
+        "M7–M9 Repeatable growth to international expansion",
+        "Market-entry risk and cost abroad; missing networks in target markets.",
+        "Door-opener. Market selection, partner and buyer access, missions. Cost-shared, time-limited.",
+        "Medium, cost-shared"
+      ],
+      [
+        "Beyond M9",
+        "Private markets should serve this band.",
+        "Convener only. Alumni, policy feedback, give-back. No direct subsidy.",
+        "Minimal"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "2.3 Where support begins and where it stops",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "Begins at M0, but at very low cost per founder. The aim at ideation is to grow the pool of capable founders and to filter cheaply, not to incubate ideas.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Intensity peaks at M5–M7. This is where the gap between \"has customers\" and \"has a business\" is widest, where failure is most expensive, and where public support has the clearest value (access to corporate and government buyers).",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Stops at sustained M9, or earlier when private capital and customers already meet the startup’s needs. Continuing subsidies beyond this point crowds out private providers and ties up scarce capacity.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "heading",
+    "text": "2.4 How the programs work as one portfolio",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "One maturity language. All programs use M0–M9, so a startup’s position is described the same way everywhere.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "One front door, one assessment. A startup is placed by evidence, so direct entry at any stage is normal, not an exception.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Non-overlapping maturity bands. Each program owns a band. Where two programs touch a band (Local Growth and TASMU around M5–M7), they differ on the market axis, not the venture axis.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Shared services follow the startup. Capital readiness, market access, regulatory navigation and technical support are drawn on by any program when the startup’s maturity justifies it.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Independent gates. Moving between programs needs a separate qualification decision, so no program can push startups into the next one.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "heading",
+    "text": "2.5 Underlying logic chain",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Element",
+        "Logic"
+      ],
+      [
+        "Startup maturity",
+        "Defined by what has been proven, not by time spent or programs completed."
+      ],
+      [
+        "Evidence",
+        "Each stage has a primary evidence question. Evidence must be verifiable by a third party."
+      ],
+      [
+        "Support need",
+        "The gap between current evidence and the evidence the next stage needs."
+      ],
+      [
+        "Intervention",
+        "Justified only if it closes that gap faster, cheaper or more credibly than the startup could alone, and the gap reflects a market failure."
+      ],
+      [
+        "Outcome",
+        "A new piece of verified evidence that moves the startup up a stage, or an early, cheap \"no\" that frees founder time and public money."
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "PRINCIPLE\nA fast, evidence-based \"stop\" or \"pivot\" is a valid portfolio outcome. A portfolio that only measures progression will push founders to fake progress."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "3. Startup Development and Maturity Model",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "The reference journey has six stages (Discover, Ideate, Incubate, Accelerate, Scale, Alumni). Four of these are named after programs and one (Alumni) is a relationship status, so the model describes where the startup is in MCIT, not how mature the startup is. The model below replaces it as the diagnostic layer. The reference stages remain as a simple communication layer for external use.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "3.1 Axis 1 — Venture maturity (M0–M9)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Stage",
+        "Primary evidence question",
+        "Phase"
+      ],
+      [
+        "M0 Ideation",
+        "Is there a founder with a specific problem hypothesis worth testing?",
+        "Explore"
+      ],
+      [
+        "M1 Problem validation",
+        "Do identifiable customers have this problem, often and painfully enough to act?",
+        "Explore"
+      ],
+      [
+        "M2 Solution validation",
+        "Does the proposed solution resolve the problem in a way customers prefer to their current workaround?",
+        "Explore"
+      ],
+      [
+        "M3 MVP / product build",
+        "Can the team build a working product that delivers the core value?",
+        "Build"
+      ],
+      [
+        "M4 Market validation",
+        "Will customers pay or commit (money, data, contracts) for it?",
+        "Build"
+      ],
+      [
+        "M5 Early traction",
+        "Is demand recurring and coming from beyond the founders’ network?",
+        "Build → Grow"
+      ],
+      [
+        "M6 Product-market fit",
+        "Do customers retain, expand and refer, with unit economics trending toward viability?",
+        "Grow"
+      ],
+      [
+        "M7 Repeatable growth",
+        "Can the company acquire customers predictably through a channel that does not depend on the founders?",
+        "Grow"
+      ],
+      [
+        "M8 Scaling",
+        "Can the organisation, capital and operations support rapid growth without breaking unit economics?",
+        "Scale"
+      ],
+      [
+        "M9 International expansion",
+        "Does the model transfer to a new market with paying customers there?",
+        "Scale"
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Solution validation (M2) and MVP (M3) often happen together for software. They stay separate because deep tech and hardware startups may spend 12–36 months in M3 with no customer revenue, and the model must not class them as failing.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "3.2 Axis 2 — Market position",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Code",
+        "Market position",
+        "Meaning"
+      ],
+      [
+        "Q",
+        "Qatar-anchored",
+        "Qatar entity, Qatar-based decision-makers and core team; Qatar is the home or primary market."
+      ],
+      [
+        "Q-entry",
+        "Entering Qatar",
+        "Company proven elsewhere; Qatar maturity measured separately, usually M2–M4 in the Qatar market."
+      ],
+      [
+        "Q+X",
+        "Qatar-anchored, expanding",
+        "Qatar-anchored company entering one or more external markets; maturity is tracked per target market."
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "WHY TWO AXES MATTER\nWithout the market axis, an international company with US$m revenue and a Qatar-founded startup with ten customers both look like \"acceleration stage\". They need very different things. With two axes, TASMU Soft Landing is defined as \"venture ≥ M6, Qatar market M2–M4\" and Scale Now as \"venture ≥ M7 in Qatar, target market M0–M2\". The overlap disappears."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "3.3 Maturity is evidence, not time",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "A startup is assessed at the highest stage for which all mandatory evidence is verified. Partial evidence for a higher stage is recorded as \"emerging\", but it does not change the stage.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Maturity can go down: a pivot to a new customer segment usually resets market evidence to M1–M2, while team and technical evidence carry over.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Maturity is reassessed at every gate and once a year for alumni. The startup record keeps the full history, so time-in-stage can be analysed.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "heading",
+    "text": "4. End-to-End Startup Journey",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "Each stage is defined below. The \"appropriate interventions\" column shows what is justified at that stage, which may come from a program, a shared service, or an outside partner. Stage-to-program mapping is in Section 5.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "M0 Ideation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Turn interest into a testable problem hypothesis and a committed founder."
+      ],
+      [
+        "What must be true",
+        "A named founder; a specific customer and problem; time available to test it."
+      ],
+      [
+        "Founder challenges",
+        "Solution-first thinking; no access to customers; part-time commitment; no co-founder."
+      ],
+      [
+        "Expected evidence",
+        "Written problem hypothesis; customer segment defined; founder time commitment stated."
+      ],
+      [
+        "Key risks",
+        "Wasting time on an untestable idea; idea attachment."
+      ],
+      [
+        "Justified interventions",
+        "Open events, hackathons, university and corporate challenges, discovery-method workshops, peer cohorts."
+      ],
+      [
+        "Milestone to progress",
+        "Testable hypothesis plus a plan for ≥20 customer conversations."
+      ],
+      [
+        "Next destinations",
+        "Pre-incubation; or exit with a cheap, clear \"no\"."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M1 Problem validation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Prove that a specific customer has the problem and cares enough to act."
+      ],
+      [
+        "What must be true",
+        "Systematic customer discovery is under way and the founder can name real customers."
+      ],
+      [
+        "Founder challenges",
+        "Leading questions in interviews; confirmation bias; getting to buyers in B2B and government."
+      ],
+      [
+        "Expected evidence",
+        "Interview log (typically 20–40 for B2C, 10–20 decision-makers for B2B); evidence of current spending or workarounds; segment ranking."
+      ],
+      [
+        "Key risks",
+        "False positives from friends and family; problem is real but not a priority for the customer."
+      ],
+      [
+        "Justified interventions",
+        "Discovery coaching; introductions to target customers; problem-interview reviews."
+      ],
+      [
+        "Milestone to progress",
+        "Problem confirmed in a reachable segment, with current spend or workaround documented."
+      ],
+      [
+        "Next destinations",
+        "Continue pre-incubation; pivot the segment; stop."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M2 Solution validation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Show that the proposed solution is preferred to the current alternative."
+      ],
+      [
+        "What must be true",
+        "Problem validated; solution concept testable (prototype, mock-up, concierge or smoke test)."
+      ],
+      [
+        "Founder challenges",
+        "Over-building; pricing guesswork; technical feasibility unknown (deep tech)."
+      ],
+      [
+        "Expected evidence",
+        "Prototype tests; pre-commitments (LOIs, waitlists with deposits, design partners); technical feasibility for deep tech or hardware."
+      ],
+      [
+        "Key risks",
+        "Polite interest mistaken for demand; the solution needs regulation or data access the startup does not have."
+      ],
+      [
+        "Justified interventions",
+        "Prototype support, design-partner sourcing, light technical advice, a first regulatory check."
+      ],
+      [
+        "Milestone to progress",
+        "At least one form of commitment beyond verbal interest; a full-time founding team, or a dated plan to get there."
+      ],
+      [
+        "Next destinations",
+        "DIC Incubation (entry gate); repeat; refer deep tech to a specialist partner."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M3 MVP / product build",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Build the smallest product that delivers the core value reliably."
+      ],
+      [
+        "What must be true",
+        "A committed team with the technical capability to build or manage the build; scope defined."
+      ],
+      [
+        "Founder challenges",
+        "Technical debt; outsourced builds with no internal capability; scope creep."
+      ],
+      [
+        "Expected evidence",
+        "Working MVP in users’ hands; usage data; architecture fit for the next 12 months; IP ownership clear."
+      ],
+      [
+        "Key risks",
+        "The build consumes the runway before there are any customers; vendor lock-in."
+      ],
+      [
+        "Justified interventions",
+        "Product and technical support, cloud credits, UX review, AI and data advisory, IP and legal basics."
+      ],
+      [
+        "Milestone to progress",
+        "MVP live with real users and instrumented usage."
+      ],
+      [
+        "Next destinations",
+        "Continue incubation (M4)."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M4 Market validation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Prove willingness to pay or commit."
+      ],
+      [
+        "What must be true",
+        "MVP live; a pricing hypothesis; first sales attempts."
+      ],
+      [
+        "Founder challenges",
+        "Free pilots that never convert; underpricing; long B2B and government cycles."
+      ],
+      [
+        "Expected evidence",
+        "Paying customers, paid pilots, signed contracts, or for deep tech, funded design-partner agreements. Revenue quality checked (no related parties)."
+      ],
+      [
+        "Key risks",
+        "Revenue that is really consulting; a single anchor customer; pilot purgatory."
+      ],
+      [
+        "Justified interventions",
+        "First-customer access, pilot structuring with conversion clauses, pricing coaching, investor-readiness basics."
+      ],
+      [
+        "Milestone to progress",
+        "Repeated paid commitment from customers outside the founders’ network."
+      ],
+      [
+        "Next destinations",
+        "DIC exit; Readiness Gate to Local Growth."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M5 Early traction",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Show demand is recurring and can be found beyond the founders’ network."
+      ],
+      [
+        "What must be true",
+        "Paying customers from unaffiliated sources; usage or revenue growing month on month."
+      ],
+      [
+        "Founder challenges",
+        "Founder-led sales do not scale; churn appears; cash runway is short."
+      ],
+      [
+        "Expected evidence",
+        "Revenue or transaction trend, early retention cohorts, a mix of acquisition sources, first look at CAC and payback."
+      ],
+      [
+        "Key risks",
+        "Growth bought with discounts; early adopters who are not the mainstream."
+      ],
+      [
+        "Justified interventions",
+        "Commercial coaching, retention analysis, first institutional or angel round preparation."
+      ],
+      [
+        "Milestone to progress",
+        "Retention evidence that begins to stabilise; evidence of a viable segment."
+      ],
+      [
+        "Next destinations",
+        "Local Growth Acceleration (Readiness Gate)."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M6 Product-market fit",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Prove customers retain, expand and refer."
+      ],
+      [
+        "What must be true",
+        "Retention curves flatten; customers expand or refer; demand pulls product."
+      ],
+      [
+        "Founder challenges",
+        "Premature scaling; hiring ahead of evidence; segment too broad."
+      ],
+      [
+        "Expected evidence",
+        "Cohort retention (the definition varies by model, see 7.3); net revenue retention or repeat purchase; qualitative pull (Sean Ellis-type survey as a supplement, not proof)."
+      ],
+      [
+        "Key risks",
+        "False PMF from one segment or one large customer."
+      ],
+      [
+        "Justified interventions",
+        "Acceleration: segment focus, pricing, retention engineering, unit economics."
+      ],
+      [
+        "Milestone to progress",
+        "Unit economics trending toward viable; at least one channel that is repeatable."
+      ],
+      [
+        "Next destinations",
+        "Continue acceleration toward M7."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M7 Repeatable growth",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Build a growth engine that does not depend on the founders."
+      ],
+      [
+        "What must be true",
+        "A documented sales or acquisition playbook; a non-founder seller or channel performing."
+      ],
+      [
+        "Founder challenges",
+        "Building the first sales team; finance discipline; Series A expectations."
+      ],
+      [
+        "Expected evidence",
+        "Pipeline and conversion data by channel; CAC payback; a non-founder share of new revenue; audited or reviewed financials."
+      ],
+      [
+        "Key risks",
+        "The channel saturates; dependence on a single large customer or government buyer."
+      ],
+      [
+        "Justified interventions",
+        "Investor access (Series A), corporate and government contracts, senior hiring."
+      ],
+      [
+        "Milestone to progress",
+        "Repeatability shown over a sustained period (e.g. two or more consecutive quarters)."
+      ],
+      [
+        "Next destinations",
+        "Scale Gate to Scale Now; private capital; alumni."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M8 Scaling",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Grow the organisation without breaking economics."
+      ],
+      [
+        "What must be true",
+        "Repeatable growth; a capital plan; a management layer forming."
+      ],
+      [
+        "Founder challenges",
+        "Organisation design, governance, culture, capital efficiency."
+      ],
+      [
+        "Expected evidence",
+        "Headcount and revenue growth with stable or improving margins; board governance."
+      ],
+      [
+        "Key risks",
+        "Burn grows faster than revenue; key-person risk."
+      ],
+      [
+        "Justified interventions",
+        "Mainly private: investors, boards. MCIT acts as convener and connector only."
+      ],
+      [
+        "Milestone to progress",
+        "Readiness to expand abroad, or domestic market leadership."
+      ],
+      [
+        "Next destinations",
+        "Scale Now (if expanding abroad); alumni."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "M9 International expansion",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Primary objective",
+        "Prove the model transfers to a new market."
+      ],
+      [
+        "What must be true",
+        "Qatar-anchored M7+; a target market selected on evidence."
+      ],
+      [
+        "Founder challenges",
+        "Localisation, regulation, partner selection, running two markets at once."
+      ],
+      [
+        "Expected evidence",
+        "Entity or partner in the target market; paying customers there; a local GTM owner; Qatar HQ retained."
+      ],
+      [
+        "Key risks",
+        "Distraction from the home market; under-capitalised entry; \"flag-planting\" with no revenue."
+      ],
+      [
+        "Justified interventions",
+        "Scale Now: market selection, missions, partner and buyer access, cost-shared."
+      ],
+      [
+        "Milestone to progress",
+        "Paying customers and a sustainable presence in at least one external market."
+      ],
+      [
+        "Next destinations",
+        "Alumni (Global); exit from subsidised support."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "5. Program Portfolio Architecture",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "The architecture keeps all five reference propositions and the alumni program. It changes their scope boundaries and entry and exit conditions so that each program owns a maturity band without overlap.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program",
+        "Venture maturity band",
+        "Market axis",
+        "Core job",
+        "Change vs reference"
+      ],
+      [
+        "Pipeline & Discovery (shared function, not a program)",
+        "Pre-M0 → M0",
+        "Any",
+        "Build the pool of founders; cheap first filter.",
+        "Reclassified as a shared Community/Marketing function. It has no gate and is not counted as a stage."
+      ],
+      [
+        "DIC Pre-incubation (Explore track)",
+        "M0 → M2",
+        "Q (founders resident in Qatar)",
+        "Problem and solution validation.",
+        "Registration requirement removed; light, cohort- or sprint-based; mostly partner-delivered."
+      ],
+      [
+        "DIC Incubation",
+        "M2 → M4/M5",
+        "Q",
+        "Build MVP; prove willingness to pay.",
+        "Exit raised from \"early traction\" (vague) to verified paid commitment from unaffiliated customers."
+      ],
+      [
+        "Local Growth Acceleration (new)",
+        "M5 → M7",
+        "Q",
+        "Reach PMF and a first repeatable growth channel; investment readiness.",
+        "Re-scoped from \"commercial growth, readiness and investment\" to the PMF band, with a hard boundary against DIC."
+      ],
+      [
+        "TASMU Accelerator (Soft Landing)",
+        "Venture ≥ M6; Qatar market M2 → M5",
+        "Q-entry",
+        "Qatar market entry, paid pilots, local substance.",
+        "Defined on the market axis; substance conditions added; not an automatic route into Scale Now."
+      ],
+      [
+        "Scale Now",
+        "M7+ in Qatar; target market M0 → M9 entry",
+        "Q+X",
+        "Enter one or two external markets with paying customers.",
+        "Exit \"successful expansion\" replaced by measurable in-market evidence; cost-sharing introduced."
+      ],
+      [
+        "MCIT Alumni Program",
+        "Any (post-program)",
+        "Any",
+        "Long-term relationship, give-back, re-entry, attribution.",
+        "Tiers set by current maturity, not by the last program completed."
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "ASSUMPTION A1 — PROGRAM BOUNDARIES\nThis assumes no other national program already serves the M5–M7 band at scale for Qatar-anchored digital startups. If one does (for example a QDB or other national accelerator), Local Growth should be redesigned as a referral and co-delivery partnership rather than a standalone MCIT program. The Portfolio Office should run a supply mapping exercise before procurement."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "6. Program-by-Program Thesis",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "Generic activities such as mentoring, workshops and networking appear only where they are tied to an evidence outcome. Each program sheet in Section 16 summarises the same content on one page.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "6.1 DIC Pre-incubation (Explore track)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program purpose",
+        "Most first-time founders fail because they build before they validate, not because the idea is bad. Pre-incubation exists to make validation cheap and fast, and to stop non-viable ideas early, before public and founder resources are committed."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-resident individuals or teams at M0–M1 with a digital or tech-enabled problem hypothesis. Students, corporate employees and career-switchers are included. No company registration is needed."
+      ],
+      [
+        "Non-target profile",
+        "Teams that have already validated the problem (route them to the Incubation gate); service businesses with no technology component; pure research projects with no customer hypothesis (refer to research or university programs)."
+      ],
+      [
+        "Value proposition",
+        "Structured discovery method, introductions to real customers, peer accountability, and a fast credible \"go / pivot / stop\" signal. Generic events offer exposure but not disciplined validation with feedback on evidence quality."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Intervention thesis: each intervention is included only because it produces a specific piece of evidence or capability.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Intervention",
+        "Why it exists (gap it closes)",
+        "Development outcome it should create"
+      ],
+      [
+        "Discovery sprints (customer interview method and review)",
+        "Founders run biased interviews and read politeness as demand.",
+        "Interview log that meets the M1 evidence standard."
+      ],
+      [
+        "Customer and buyer introductions (through Network)",
+        "First-time founders cannot reach B2B and government decision-makers.",
+        "Decision-maker interviews in B2B segments."
+      ],
+      [
+        "Prototype and smoke-test toolkits",
+        "Over-building before solution testing.",
+        "Commitment evidence (LOIs, deposits, design partners)."
+      ],
+      [
+        "Co-founder matching",
+        "Solo, part-time founders are the main reason for M2 stall.",
+        "A committed founding team at M2."
+      ],
+      [
+        "Evidence demo day (replaces pitch day)",
+        "Pitch days reward storytelling, not evidence.",
+        "A clear routing decision: Incubation gate, repeat, pivot or stop."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "6.2 DIC Incubation",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program purpose",
+        "Validated teams still fail between prototype and first revenue. Their product is not robust, their pricing is untested, and they cannot get a first enterprise or government customer to commit. Incubation turns a validated solution into a product customers pay for."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-registered (or registering within the first 60 days) teams at M2–M3, with a committed founding team that can build or manage the build of a digital product. Pre-revenue is expected."
+      ],
+      [
+        "Non-target profile",
+        "Teams with recurring revenue and retention evidence (route to Local Growth); teams with no validated problem (Pre-incubation); deep tech needing more than 18 months of R&D before an MVP (specialist partner plus a monitored DIC relationship)."
+      ],
+      [
+        "Value proposition",
+        "Product support, workspace, a structured route to a first paying customer (pilot structuring, introductions to buyers), and investor-readiness basics. This combination is not available from generic coworking or online programs in a form tied to Qatar buyers."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Intervention thesis: each intervention is included only because it produces a specific piece of evidence or capability.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Intervention",
+        "Why it exists (gap it closes)",
+        "Development outcome it should create"
+      ],
+      [
+        "Product and technical advisory (architecture, UX, AI and data)",
+        "Outsourced builds without internal capability create technical debt.",
+        "An instrumented MVP live with users (M3)."
+      ],
+      [
+        "Pilot structuring with conversion clauses",
+        "Free pilots rarely convert (\"pilot purgatory\").",
+        "Paid pilots or contracts (M4)."
+      ],
+      [
+        "Pricing and commercial coaching",
+        "Underpricing and confusion about who the buyer is.",
+        "Documented pricing and buyer map."
+      ],
+      [
+        "First-customer introductions (corporate and government)",
+        "Access asymmetry in Qatar’s concentrated buyer market (assumption A3).",
+        "Commitments from unaffiliated customers."
+      ],
+      [
+        "Investor-readiness basics (cap table, data room, metrics)",
+        "Founders seek capital before they are ready, which burns investor goodwill.",
+        "A clean cap table and metrics pack, ready for the Readiness Gate."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "6.3 Local Growth Acceleration (new)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program purpose",
+        "This closes the largest gap in the reference journey. Startups exit incubation with some customers but no proof of product-market fit or a repeatable channel, and they are not yet fundable by institutional investors. Nothing in the reference portfolio owns this transition."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-anchored startups at M5 (early traction) with paying unaffiliated customers, a growing revenue or usage trend and a full-time team, typically pre-seed to seed funded or bootstrapped."
+      ],
+      [
+        "Non-target profile",
+        "Pre-revenue startups (DIC); startups already at M7 with repeatable growth (go straight to the Scale Gate or private capital); international companies new to Qatar (TASMU); lifestyle or service businesses with no scalable model."
+      ],
+      [
+        "Value proposition",
+        "A hands-on commercial program focused on retention, unit economics and building the first non-founder growth channel, together with readiness-gated access to investors and to corporate and government contracts. This is the evidence that seed and Series A investors look for."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Intervention thesis: each intervention is included only because it produces a specific piece of evidence or capability.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Intervention",
+        "Why it exists (gap it closes)",
+        "Development outcome it should create"
+      ],
+      [
+        "Retention and cohort diagnostics",
+        "Founders confuse growth with PMF.",
+        "Verified retention evidence (M6)."
+      ],
+      [
+        "Segment focus and pricing work",
+        "Startups sell to everyone and cannot replicate wins.",
+        "A defined ideal customer profile with improving unit economics."
+      ],
+      [
+        "Sales and channel playbook build, including the first non-founder seller",
+        "Founder-led sales cap growth.",
+        "A share of new revenue from non-founder channels (M7 emerging)."
+      ],
+      [
+        "Corporate and government contract access (Market Access service)",
+        "Long, opaque procurement cycles.",
+        "Converted contracts, not pilots."
+      ],
+      [
+        "Capital readiness and investor access (gated)",
+        "A thin seed-to-Series-A market (assumption A2).",
+        "A priced round or term sheet, or a credible capital plan with investor feedback."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "6.4 TASMU Accelerator (Soft Landing)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program purpose",
+        "Proven international companies in Qatar’s priority sectors face high entry costs: regulation, buyer access, entity set-up and local hiring. Qatar benefits when those companies bring capability and build local substance. The program lowers the entry cost in return for a real local commitment."
+      ],
+      [
+        "Target startup profile",
+        "International companies at venture maturity M6 or above in their home market, with a pilot-ready solution for a defined Qatar buyer group in a priority sector, and a stated commitment to a Qatar entity and team. In Qatar market terms they are at M2–M4."
+      ],
+      [
+        "Non-target profile",
+        "Companies seeking only a sales trip or distributor; pre-PMF companies (they would use Qatar as a test market at public cost); companies unwilling to set up local substance; Qatar-anchored startups (Local Growth)."
+      ],
+      [
+        "Value proposition",
+        "A structured route to Qatar buyers with pilot conversion support, regulatory navigation and set-up support. Each startup is matched to a corporate or government challenge owner. Generic investment-promotion support does not provide buyer-matched pilots."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Intervention thesis: each intervention is included only because it produces a specific piece of evidence or capability.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Intervention",
+        "Why it exists (gap it closes)",
+        "Development outcome it should create"
+      ],
+      [
+        "Challenge-owner matching with corporates and government",
+        "Foreign firms cannot identify or reach the real buyer.",
+        "Paid pilots with a named sponsor."
+      ],
+      [
+        "Regulatory and set-up navigation",
+        "Licensing and entity set-up delay entry.",
+        "A Qatar entity and the licences needed."
+      ],
+      [
+        "Localisation advisory (Arabic, data residency, procurement fit)",
+        "Products are not compliant or adapted.",
+        "A Qatar-ready product."
+      ],
+      [
+        "Local talent and partner access",
+        "No local delivery capacity.",
+        "Qatar-based staff and partners (substance)."
+      ],
+      [
+        "Pilot-to-contract conversion support",
+        "Pilots stall after the program ends.",
+        "Qatar revenue under contract (Qatar market M5)."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "6.5 Scale Now",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program purpose",
+        "Qatar’s home market is small, so Qatar-anchored startups must expand to sustain growth. International entry is expensive and risky, and early mistakes such as choosing the wrong market or partner are often fatal. Scale Now lowers the cost of entering a well-chosen market while keeping the company anchored in Qatar."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-anchored startups at M7 or above (repeatable growth in Qatar), with funding raised or self-funding capacity for expansion and an evidence-based shortlist of target markets."
+      ],
+      [
+        "Non-target profile",
+        "Startups without repeatable growth at home (they would export an unproven model); companies whose Qatar presence is nominal; soft-landed international companies without at least 12 months of evidenced Qatar substance (assumption A6)."
+      ],
+      [
+        "Value proposition",
+        "Market selection discipline, curated buyer and partner access in target markets, trade missions with pre-qualified meetings, and support from the international network. Missions are cost-shared and tied to outcomes."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Intervention thesis: each intervention is included only because it produces a specific piece of evidence or capability.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Intervention",
+        "Why it exists (gap it closes)",
+        "Development outcome it should create"
+      ],
+      [
+        "Market selection diagnostic",
+        "Founders choose markets by proximity or by events they have heard of.",
+        "A ranked market choice with a documented rationale."
+      ],
+      [
+        "Pre-qualified buyer and partner meetings (GTM Specialist)",
+        "Mission meetings rarely convert.",
+        "Qualified pipeline in the target market."
+      ],
+      [
+        "Entity, partner and regulatory set-up support",
+        "Entry delays and costly legal mistakes.",
+        "A legal presence or channel partner in place."
+      ],
+      [
+        "Growth capital access (Series A and above, cross-border)",
+        "Local capital is too thin for expansion rounds.",
+        "Expansion round or strategic investment."
+      ],
+      [
+        "In-market follow-up (6–12 months)",
+        "Momentum is lost after missions.",
+        "Paying customers in the target market (M9)."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "6.6 MCIT Alumni Program",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program purpose",
+        "Program impact appears years after exit, and successful founders are the most credible mentors and angels. Without a structured alumni relationship, MCIT loses attribution data, give-back capacity and the ability to bring regressing companies back in."
+      ],
+      [
+        "Target startup profile",
+        "Every startup that completed any MCIT program (completion, not only graduation), plus founders of companies that exited the support system."
+      ],
+      [
+        "Non-target profile",
+        "Not a vehicle for continued subsidy. Alumni do not get program-level services unless they pass the relevant entry gate again."
+      ],
+      [
+        "Value proposition",
+        "A peer network, deal flow visibility, invitations to investor and buyer events matched to current maturity, and a fast-track reassessment route."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "Intervention thesis: each intervention is included only because it produces a specific piece of evidence or capability.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Intervention",
+        "Why it exists (gap it closes)",
+        "Development outcome it should create"
+      ],
+      [
+        "Annual maturity check-in and data return",
+        "Long-term outcomes are invisible.",
+        "A 3- and 5-year survival, revenue and jobs dataset."
+      ],
+      [
+        "Maturity-tiered access to services",
+        "Completion-based tiers reward history, not current need.",
+        "Services matched to where the startup is now."
+      ],
+      [
+        "Give-back roles (mentor, angel, speaker, buyer)",
+        "Mentor quality depends on operators.",
+        "Operator-mentors and alumni angel cheques."
+      ],
+      [
+        "Fast-track reassessment",
+        "Alumni who pivot or regress are lost.",
+        "Re-entry at the right stage."
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "NOT A PROGRAM: PIPELINE & DISCOVERY\nOutreach, hackathons, university and corporate challenges are kept as a shared Community/Marketing function. Calling it a stage makes \"number of applications\" look like development. It is measured on pipeline quality (share of applicants passing Pre-incubation or Incubation gates), not volume."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "7. Entry Gate Framework",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "heading",
+    "text": "7.1 Gate design principles",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "Three layers. (1) Mandatory knock-outs that test eligibility and safety. (2) A weighted maturity score that tests evidence against the stage definition. (3) Contextual adjustments for business model, sector and regulation.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Evidence over assertion. Each criterion names the artefact that proves it and how it is verified (document, data access, customer reference call, technical review).",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "No universal revenue threshold. Commercial criteria are expressed as a maturity condition, and the evidence that satisfies them varies by business model (7.3).",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Indicative numbers are calibration starting points, labelled as such. They should be recalibrated after two cohorts against outcome data.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Score bands decide the route, not just pass or fail: Admit / Admit with conditions / Route to a different program / Decline with feedback.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "heading",
+    "text": "7.2 Entry gates by program",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "heading",
+    "text": "Gate E1 — DIC Pre-incubation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Criterion",
+        "Rationale",
+        "Evidence",
+        "Threshold",
+        "Method",
+        "Type",
+        "Exceptions"
+      ],
+      [
+        "Founder commitment",
+        "Validation needs founder time.",
+        "Time commitment statement; availability for the sprint schedule.",
+        "Enough time to run the discovery plan (indicatively ≥10 hrs/week).",
+        "Application plus short interview.",
+        "Mandatory",
+        "None."
+      ],
+      [
+        "Specific problem hypothesis",
+        "Vague ideas cannot be tested.",
+        "A written statement of who has what problem.",
+        "A named segment and a falsifiable problem.",
+        "Scored application.",
+        "Weighted (35%)",
+        "—"
+      ],
+      [
+        "Technology relevance",
+        "Mandate fit.",
+        "A description of the intended solution.",
+        "Digital or tech-enabled value.",
+        "Screening.",
+        "Mandatory",
+        "Non-tech ideas go to partners."
+      ],
+      [
+        "Coachability and learning signal",
+        "Predicts how well the founder will respond to evidence.",
+        "Response to a structured feedback exercise.",
+        "Revises at least one assumption in response to evidence.",
+        "Interview exercise.",
+        "Weighted (35%)",
+        "—"
+      ],
+      [
+        "Qatar residency",
+        "Mandate and program delivery.",
+        "ID or residency.",
+        "Resident in Qatar for the duration.",
+        "Document check.",
+        "Mandatory",
+        "Diaspora Qataris (contextual)."
+      ],
+      [
+        "Team complementarity",
+        "Solo founders stall at M2.",
+        "Team roster.",
+        "None required at entry; this becomes a milestone.",
+        "Interview.",
+        "Weighted (30%)",
+        "Solo founders admitted with a co-founder milestone."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "Gate E2 — DIC Incubation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Criterion",
+        "Rationale",
+        "Evidence",
+        "Threshold",
+        "Method",
+        "Type",
+        "Exceptions"
+      ],
+      [
+        "Problem validated (M1)",
+        "Incubation resources should go into building, not discovering.",
+        "Interview log; evidence of current spending or workarounds.",
+        "Meets the M1 standard (Section 4).",
+        "Evidence review plus a sample customer call.",
+        "Mandatory",
+        "None."
+      ],
+      [
+        "Solution commitment (M2)",
+        "Separates interest from intent.",
+        "LOIs, deposits, design-partner agreements, waitlist conversion, or a technical feasibility proof (deep tech).",
+        "At least one form of commitment beyond verbal interest from unaffiliated parties.",
+        "Verify with the counterparty.",
+        "Mandatory",
+        "Deep tech: technical proof substitutes (7.3)."
+      ],
+      [
+        "Committed founding team",
+        "Part-time teams rarely reach M4.",
+        "Employment status; equity split; shareholder agreement.",
+        "At least one full-time founder; the others committed with dates.",
+        "Document check plus interview.",
+        "Mandatory",
+        "Time-bound plan accepted for university spin-outs."
+      ],
+      [
+        "Build capability",
+        "Outsourced-only builds create fragility.",
+        "A technical co-founder, CTO, or a managed vendor with internal product ownership.",
+        "A named product owner with the capacity to direct the build.",
+        "Technical interview.",
+        "Weighted (25%)",
+        "—"
+      ],
+      [
+        "Market attractiveness",
+        "Stops incubating ventures that are too small to scale.",
+        "Bottom-up market sizing; regional relevance.",
+        "A credible path to a venture-scale or regionally scalable business.",
+        "Panel scoring.",
+        "Weighted (20%)",
+        "Strategic-sector ventures (contextual)."
+      ],
+      [
+        "Qatar registration",
+        "Contracting, pilots and investment need a legal entity.",
+        "Commercial registration.",
+        "Registered, or registering within 60 days of entry.",
+        "Document check.",
+        "Mandatory (time-bound)",
+        "—"
+      ],
+      [
+        "Clean cap table and IP",
+        "Prevents later investment blockers.",
+        "Cap table; IP assignment.",
+        "Founders hold a controlling interest; IP is owned by the company or being assigned.",
+        "Legal review.",
+        "Contextual",
+        "University IP licensing."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "Gate E3 — Local Growth Acceleration (Readiness Gate)",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Criterion",
+        "Rationale",
+        "Evidence",
+        "Threshold",
+        "Method",
+        "Type",
+        "Exceptions"
+      ],
+      [
+        "Paid, unaffiliated demand (M4 complete)",
+        "Acceleration amplifies demand; it cannot create it.",
+        "Invoices or bank statements; contracts; customer list.",
+        "Repeated paid commitment from customers not related to the founders (indicatively 3 or more B2B, or a recurring paying base for B2C; see 7.3).",
+        "Financial verification plus 2 reference calls.",
+        "Mandatory",
+        "Regulated sectors: sandbox approval plus paid design partners."
+      ],
+      [
+        "Traction trend (M5)",
+        "Separates a one-off sale from emerging traction.",
+        "6-month revenue or usage series; acquisition sources.",
+        "A positive trend with at least some customers acquired outside the founder network.",
+        "Data-room review.",
+        "Weighted (30%)",
+        "Long-cycle enterprise: pipeline quality substitutes."
+      ],
+      [
+        "Early retention signal",
+        "The program’s job is PMF; it needs a starting signal.",
+        "Cohort data; renewals; repeat purchases.",
+        "Retention data exists and can be analysed (no level threshold at entry).",
+        "Analyst review.",
+        "Weighted (25%)",
+        "Fewer than 6 months of sales: admit with conditions."
+      ],
+      [
+        "Full-time team and runway",
+        "An acceleration program cannot fix existential cash risk.",
+        "Org chart; cash position; burn rate.",
+        "Full-time core team; runway covering the program plus 3 months, or a funding plan.",
+        "Financial review.",
+        "Mandatory",
+        "Bridge referral to QDB or angels."
+      ],
+      [
+        "Qatar anchoring",
+        "Mandate.",
+        "Entity, team location, decision-makers.",
+        "Qatar-anchored (Q).",
+        "Document check.",
+        "Mandatory",
+        "Soft-landed companies use the Market Access service instead."
+      ],
+      [
+        "Growth ambition and scalability",
+        "Excludes service businesses.",
+        "Model description; gross margin.",
+        "Gross margin consistent with a scalable model for its category.",
+        "Panel scoring.",
+        "Weighted (25%)",
+        "Tech-enabled services with a credible productisation path."
+      ],
+      [
+        "Founder openness to change",
+        "PMF work often needs uncomfortable pivots.",
+        "Interview; DIC coach reference (if alumni).",
+        "Shows evidence-based decision-making.",
+        "Panel interview.",
+        "Weighted (20%)",
+        "—"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "Gate E4 — TASMU Accelerator (Soft-Landing Entry)",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Criterion",
+        "Rationale",
+        "Evidence",
+        "Threshold",
+        "Method",
+        "Type",
+        "Exceptions"
+      ],
+      [
+        "PMF in home market (venture ≥ M6)",
+        "Qatar should not fund early market discovery for foreign companies.",
+        "Audited or reviewed financials; retention data; reference customers.",
+        "Evidence of retention and recurring revenue in at least one market.",
+        "Due diligence plus references.",
+        "Mandatory",
+        "Deep tech with an anchor Qatar buyer (contextual)."
+      ],
+      [
+        "Qatar buyer fit",
+        "The program’s value is matched buyers.",
+        "Named use case; challenge-owner interest.",
+        "At least one Qatar challenge owner willing to scope a paid pilot.",
+        "Challenge-owner confirmation.",
+        "Mandatory",
+        "—"
+      ],
+      [
+        "Priority-sector alignment",
+        "Strategic relevance to national priorities (DA2030 and NDS3 sectors).",
+        "Sector mapping.",
+        "Fits a declared priority sector.",
+        "Screening.",
+        "Weighted (20%)",
+        "Exceptional cross-sector tech."
+      ],
+      [
+        "Local substance commitment",
+        "The public return is local capability.",
+        "A board-approved entry plan: entity, headcount, timeline.",
+        "A committed Qatar entity and staff plan within the program period.",
+        "Plan review plus signed commitment.",
+        "Mandatory",
+        "—"
+      ],
+      [
+        "Qatar readiness",
+        "Localisation and compliance gaps cause delays.",
+        "Data residency, Arabic and compliance assessment.",
+        "Gaps identified and closable within the program.",
+        "Technical review.",
+        "Weighted (25%)",
+        "—"
+      ],
+      [
+        "Funding capacity",
+        "Entry cost must be covered by the company.",
+        "Financial statements.",
+        "Can fund entry costs beyond program support.",
+        "Financial review.",
+        "Weighted (25%)",
+        "—"
+      ],
+      [
+        "Prior Qatar presence",
+        "Prevents subsidising firms already established in Qatar.",
+        "Registration history.",
+        "No established Qatar revenue base above the soft-landing stage.",
+        "Registry check.",
+        "Contextual",
+        "Re-entry after a failed earlier attempt."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "Gate E5 — Scale Now (Scale Gate)",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Criterion",
+        "Rationale",
+        "Evidence",
+        "Threshold",
+        "Method",
+        "Type",
+        "Exceptions"
+      ],
+      [
+        "Repeatable growth in Qatar (M7)",
+        "Exporting an unproven model multiplies risk.",
+        "Channel-level pipeline and conversion data; non-founder revenue share; 2+ quarters of data.",
+        "Repeatability shown over 2 or more consecutive quarters.",
+        "Data-room plus Gate Panel.",
+        "Mandatory",
+        "Products built for regional markets from day one (contextual)."
+      ],
+      [
+        "Unit economics",
+        "Expansion burns cash; economics must hold.",
+        "CAC, payback, gross margin by segment.",
+        "Positive contribution margin, or a credible, evidenced path to it.",
+        "Financial analysis.",
+        "Mandatory",
+        "Marketplaces: liquidity and take-rate evidence."
+      ],
+      [
+        "Capital capacity",
+        "Under-capitalised entry fails.",
+        "Bank statements; term sheets; investor commitments.",
+        "Funds covering the expansion budget plus the cost share. A \"raise plan\" alone is not enough.",
+        "Verification.",
+        "Mandatory",
+        "Committed round closing within 90 days (conditional admit)."
+      ],
+      [
+        "Qatar anchoring and substance",
+        "Public return depends on HQ retention.",
+        "Entity, HQ functions, Qatar headcount, Qatar revenue.",
+        "Q status; soft-landed firms need 12 or more months of evidenced substance (A6).",
+        "Registry plus payroll evidence.",
+        "Mandatory",
+        "—"
+      ],
+      [
+        "Target market evidence",
+        "Market choice drives success.",
+        "Market selection analysis; early demand signals.",
+        "Evidence-based shortlist of 1–2 markets.",
+        "Diagnostic review.",
+        "Weighted (30%)",
+        "Diagnostic can be completed in the first month."
+      ],
+      [
+        "Management bandwidth",
+        "Two markets stretch founders.",
+        "Org chart; named expansion owner.",
+        "Named owner for the expansion; Qatar operations covered.",
+        "Interview.",
+        "Weighted (30%)",
+        "—"
+      ],
+      [
+        "Regulatory transferability",
+        "Regulated products may not transfer.",
+        "Regulatory scan of the target market.",
+        "No blocking regulatory barrier identified.",
+        "Specialist review.",
+        "Weighted (40%)",
+        "—"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "7.3 Evidence equivalence by business model",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "The same maturity condition is proven by different evidence in different models. Assessors use this table to apply commercial criteria consistently and fairly.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Model",
+        "M4 willingness to pay",
+        "M5 early traction",
+        "M6 PMF",
+        "M7 repeatability"
+      ],
+      [
+        "B2B SaaS / enterprise",
+        "Paid pilots or contracts with budget owners",
+        "Several logos outside the network; pipeline with qualified stages",
+        "Renewals; net revenue retention; reference customers",
+        "Non-founder AE closing; predictable sales cycle"
+      ],
+      [
+        "B2C app / subscription",
+        "Paid conversions; pre-orders",
+        "Organic share of acquisition; growing paying base",
+        "Cohort retention curve flattens; referral share",
+        "Paid channel with CAC payback within category norms"
+      ],
+      [
+        "Marketplace",
+        "Transactions on both sides",
+        "Repeat transactions; growing GMV",
+        "Liquidity (match or fill rate); repeat buyers and sellers",
+        "Supply and demand acquisition repeatable in new segments or cities"
+      ],
+      [
+        "Deep tech",
+        "Funded design-partner agreements; technical proof (TRL milestones)",
+        "Paid validation contracts; grants paired with industry partners",
+        "Production contracts; validated performance in a customer setting",
+        "Manufacturing or deployment scale plan; repeat orders"
+      ],
+      [
+        "Hardware",
+        "Pre-orders with deposits; paid pilots",
+        "Units in field; repeat orders",
+        "Return and failure rates; reorders",
+        "Supply chain and channel partners at scale"
+      ],
+      [
+        "Regulated (fintech, health)",
+        "Sandbox admission plus paid design partners",
+        "Licensed operation or partner-licence model live",
+        "Retention within licensed scope",
+        "Licence covering the growth markets"
+      ],
+      [
+        "GovTech",
+        "Paid pilot under a procurement instrument",
+        "Second agency or entity buying",
+        "Renewal or expansion of scope",
+        "Framework agreement or catalogue listing"
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "ASSESSMENT INTEGRITY RULES\nRevenue from shareholders, relatives, affiliated companies or grant bodies is excluded from commercial evidence.\nLOIs count only if they name a price, volume or timeline. Unpriced LOIs count as M2 evidence only.\nRecurring and one-off (consulting or project) revenue are reported separately; only recurring or repeat revenue counts toward M5 and above.\nAt least two customer reference calls are made for the Readiness and Scale gates, with customers chosen by the assessor, not the startup."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "8. Exit Gate Framework",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "heading",
+    "text": "8.1 Three outcomes that must not be conflated",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Status",
+        "Definition",
+        "Decided by",
+        "What it unlocks"
+      ],
+      [
+        "Completion",
+        "Took part in the program for its full duration and met participation obligations (attendance, data returns, milestone reviews).",
+        "Program Lead",
+        "Alumni membership; completion certificate. Not reported as graduation."
+      ],
+      [
+        "Graduation",
+        "Met the program’s mandatory exit outcomes, verified against evidence.",
+        "Gate Panel (independent of program delivery for Readiness and Scale gates)",
+        "Counted in graduation KPIs; alumni tier set by verified maturity."
+      ],
+      [
+        "Qualification",
+        "Met the entry gate of another program in a separate assessment.",
+        "Portfolio Office assessment plus Gate Panel",
+        "Offer to the next program, subject to capacity and cohort timing."
+      ]
+    ]
+  },
+  {
+    "kind": "text",
+    "text": "A startup can graduate without qualifying for the next program (for example, PMF reached but no capital to expand), and can qualify without graduating (for example, direct entry from outside). Every combination is recorded separately in the startup record.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "8.2 Exit gates by program",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "heading",
+    "text": "X1 — DIC Pre-incubation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Required outcome",
+        "Evidence",
+        "Measurement",
+        "Min. maturity",
+        "Type",
+        "If not achieved"
+      ],
+      [
+        "Problem validated (M1)",
+        "Interview log against standard; workaround or spend evidence",
+        "Coach and assessor review",
+        "M1",
+        "Mandatory",
+        "Repeat one sprint, pivot segment, or stop."
+      ],
+      [
+        "Solution commitment (M2)",
+        "LOIs, deposits, design partners",
+        "Counterparty verification",
+        "M2",
+        "Mandatory for graduation",
+        "Graduate at M1 with a validation plan; reapply."
+      ],
+      [
+        "Committed team",
+        "Team roster; commitment dates",
+        "Interview",
+        "At least one full-time founder planned",
+        "Directional",
+        "Co-founder matching referral."
+      ],
+      [
+        "Evidence-based decision",
+        "Recorded go / pivot / stop decision",
+        "Demo-day panel",
+        "—",
+        "Mandatory for completion",
+        "—"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "X2 — DIC Incubation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Required outcome",
+        "Evidence",
+        "Measurement",
+        "Min. maturity",
+        "Type",
+        "If not achieved"
+      ],
+      [
+        "MVP live with real users (M3)",
+        "Product demo; usage analytics access",
+        "Technical review",
+        "M3",
+        "Mandatory",
+        "Extension of up to one cycle, then exit."
+      ],
+      [
+        "Willingness to pay (M4)",
+        "Invoices or bank statements; contracts",
+        "Financial verification plus references",
+        "M4",
+        "Mandatory",
+        "Graduate at M3 (product), not M4; route to Market Access."
+      ],
+      [
+        "Investment-ready basics",
+        "Cap table; data room; metrics pack",
+        "Checklist",
+        "Complete",
+        "Mandatory",
+        "Remedial support before graduation."
+      ],
+      [
+        "Early traction signal (M5)",
+        "Trend data; acquisition sources",
+        "Analyst review",
+        "M5 emerging",
+        "Directional",
+        "Determines whether to route to the Readiness Gate now or later."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "X3 — Local Growth Acceleration",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Required outcome",
+        "Evidence",
+        "Measurement",
+        "Min. maturity",
+        "Type",
+        "If not achieved"
+      ],
+      [
+        "PMF evidenced (M6)",
+        "Cohort retention; renewals or NRR; references",
+        "Data-room plus Gate Panel",
+        "M6",
+        "Mandatory",
+        "Graduate at M5 with a PMF diagnostic; alumni; reassess in 6 months."
+      ],
+      [
+        "Unit economics trending to viable",
+        "CAC, payback, margin by segment",
+        "Financial analysis",
+        "Improvement over the program, documented",
+        "Mandatory",
+        "Focused advisory via shared services."
+      ],
+      [
+        "First repeatable channel (M7 emerging)",
+        "Channel data; non-founder revenue share",
+        "Analyst review",
+        "At least one channel producing predictable results",
+        "Directional",
+        "Scale Gate deferred."
+      ],
+      [
+        "Capital outcome",
+        "Closed round, term sheet, or documented investor feedback",
+        "Verification",
+        "Any one",
+        "Directional",
+        "Capital Readiness service."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "X4 — TASMU Accelerator",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Required outcome",
+        "Evidence",
+        "Measurement",
+        "Min. maturity",
+        "Type",
+        "If not achieved"
+      ],
+      [
+        "Paid Qatar pilot or contract",
+        "Signed paid agreement with a Qatar buyer",
+        "Contract verification",
+        "Qatar market M4",
+        "Mandatory",
+        "Completion only; Market Access support for 6 months."
+      ],
+      [
+        "Local substance in place",
+        "Entity; Qatar payroll; local lead",
+        "Registry plus payroll",
+        "Entity plus at least one Qatar-based employee in a business role",
+        "Mandatory",
+        "Grace period of up to 3 months, otherwise not graduated."
+      ],
+      [
+        "Pilot-to-contract conversion",
+        "Follow-on contract or expanded scope",
+        "Contract verification",
+        "Qatar market M5",
+        "Directional (tracked at 12 months)",
+        "Feeds the TASMU outcome KPI."
+      ],
+      [
+        "Second Qatar customer",
+        "Contract or invoice",
+        "Verification",
+        "—",
+        "Directional",
+        "—"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "X5 — Scale Now",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Required outcome",
+        "Evidence",
+        "Measurement",
+        "Min. maturity",
+        "Type",
+        "If not achieved"
+      ],
+      [
+        "Market entry vehicle",
+        "Entity, distributor or partner agreement in the target market",
+        "Document check",
+        "In place",
+        "Mandatory",
+        "Extend in-market support or exit with a diagnostic."
+      ],
+      [
+        "Paying customers in the target market",
+        "Invoices or contracts",
+        "Verification",
+        "Target market M4",
+        "Mandatory",
+        "Completion only."
+      ],
+      [
+        "Qatar HQ retained",
+        "Registry; Qatar headcount",
+        "Verification",
+        "No HQ relocation during the program",
+        "Mandatory",
+        "Triggers the cost-share clawback clause (if adopted)."
+      ],
+      [
+        "Repeatable in-market revenue",
+        "Revenue series in the target market",
+        "Tracked at 12 and 24 months",
+        "Target market M5+",
+        "Directional",
+        "Alumni Global tier plus monitoring."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "9. Startup Progression and Routing Logic",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "heading",
+    "text": "9.1 Routing rules",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "Place by evidence. Every applicant is assessed on both axes and placed at the program whose entry gate matches their verified maturity, whatever their history.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "One program at a time for core programs. A startup can be enrolled in only one core program (Pre-incubation, Incubation, Local Growth, TASMU or Scale Now) at a time. Shared services can be used alongside.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Highest matching band wins. If a startup meets two entry gates, it is routed to the higher band, with targeted shared-service support for any gap. This stops a strong startup from being held back in an earlier program.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Residency limits. Each core program has a maximum residency (indicatively: Pre-incubation 3 months, Incubation 6–9 months plus at most one extension, Local Growth 6 months, TASMU 6 months, Scale Now 12 months including follow-up). Deep tech can have a documented extended plan.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "No automatic progression. Graduating from one program triggers an assessment for the next. It does not give admission.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Routing decisions within 15 working days (the reference service standard is retained), with written feedback for every decline.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "heading",
+    "text": "9.2 Scenario handling",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Scenario",
+        "Routing rule",
+        "Safeguard"
+      ],
+      [
+        "Direct entry into a later-stage program",
+        "Allowed when the entry gate is met. The startup gets an onboarding diagnostic to fill gaps (for example cap table, data room) through shared services.",
+        "Same evidence standard as internal progression. No \"fast lane\" for referrals from senior stakeholders."
+      ],
+      [
+        "Successful progression",
+        "Exit-gate evidence is reused for the next entry gate, and the panel only checks what is new.",
+        "The panel includes at least one member who did not deliver the previous program."
+      ],
+      [
+        "Graduation without immediate progression",
+        "Alumni status at verified maturity; reassessment every 6 months or on request; shared services available by maturity.",
+        "This counts as a positive outcome in the KPIs; it is not counted as drop-off."
+      ],
+      [
+        "Referral to specialist support",
+        "Specific gap (regulatory, deep-tech R&D, financing) goes to a shared service or partner; the startup record tracks the referral and its outcome.",
+        "Referral is closed-loop: the partner confirms engagement within 30 days."
+      ],
+      [
+        "Same maturity after completing a program",
+        "Recorded as completion without graduation. A diagnostic explains why (market, team, product or execution).",
+        "No re-enrolment in the same program unless there is a material change (pivot, new team member, new funding)."
+      ],
+      [
+        "Failing exit requirements",
+        "Options: one extension (if it is close to the gate and has a credible plan), routing to a shared service, alumni at current maturity, or a responsible exit.",
+        "Extension is capped at one. Every outcome is reported."
+      ],
+      [
+        "Becoming ineligible",
+        "For example HQ relocation, misrepresented evidence, inactivity or a breach of terms: exit from the program; clawback where the agreement allows; flag in the record.",
+        "Misrepresentation leads to a defined exclusion period."
+      ],
+      [
+        "Alumni re-entry",
+        "Fast-track reassessment against current maturity. A pivoted company may re-enter at an earlier stage; a grown company may enter a later program.",
+        "The re-entry decision is based on new evidence, not on loyalty."
+      ],
+      [
+        "International startup via soft landing",
+        "Enters TASMU on the market axis. After graduation: Market Access service and alumni (Growth). It becomes eligible for Scale Now only after Qatar anchoring is evidenced over time (A6).",
+        "Prevents a \"Qatar passport\" route: a short Qatar presence followed by subsidised expansion elsewhere."
+      ],
+      [
+        "Pivot during a program",
+        "Market evidence resets; the program decides whether the new direction still fits its band. If not, route to the earlier program at the next cohort.",
+        "Avoids holding pivoted startups in a program that no longer fits them."
+      ],
+      [
+        "Startup in more than one band (strong product, weak commercial)",
+        "The lowest unmet mandatory criterion decides the program; strengths are used through shared services.",
+        "Prevents qualifying for several programs at once."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "9.3 Routing decision outcomes",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Outcome",
+        "Trigger"
+      ],
+      [
+        "Progress",
+        "Entry gate of the next program met."
+      ],
+      [
+        "Direct entry",
+        "Applicant from outside meets a later gate."
+      ],
+      [
+        "Hold and strengthen",
+        "Close to the gate (for example, within one evidence item); targeted shared service plus reassessment within 6 months."
+      ],
+      [
+        "Pivot and re-route",
+        "Market evidence invalidated; route to the earlier band."
+      ],
+      [
+        "Refer",
+        "The need is outside the portfolio mandate (non-tech, research, distressed financing)."
+      ],
+      [
+        "Alumni",
+        "Graduated or completed, with no immediate qualification."
+      ],
+      [
+        "Responsible exit",
+        "Non-viable, inactive or ineligible."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "10. Cross-Program / Specialist Support Architecture",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "Test applied: a standalone program is justified only when (a) the need is concentrated in a distinct population, (b) the intervention needs a cohort or dedicated methodology, and (c) it cannot be delivered within an existing program without diluting that program. Otherwise the support is a cross-program service (shared supply, accessed by maturity trigger) or is embedded in a program.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Support area",
+        "Form",
+        "Rationale",
+        "Owner",
+        "Access trigger"
+      ],
+      [
+        "Investment readiness and investor access",
+        "Cross-program service (\"Capital Readiness\")",
+        "Needed from M4 to M9 in different forms. A separate program would duplicate content and expose investors to unready startups. Existing DIC investment initiatives should be folded in here (assumption A7).",
+        "Network Lead (Investor Relations Specialist)",
+        "Readiness checklist for basics (M4+); investor introductions only at M5+ with a verified metrics pack."
+      ],
+      [
+        "Investor matching and deal events",
+        "Cross-program, inside Capital Readiness",
+        "Investor goodwill is a shared and scarce asset.",
+        "Investor Relations Specialist",
+        "Gate Panel or Portfolio Office endorsement."
+      ],
+      [
+        "Corporate innovation access and pilots",
+        "Cross-program service (\"Market Access\")",
+        "Used by DIC (first customers), Local Growth (contracts), TASMU (challenges). One relationship owner per corporate, as in the reference framework.",
+        "Network Lead",
+        "M4+ for pilots; a pilot standard is required (paid, success criteria, conversion path)."
+      ],
+      [
+        "Government procurement",
+        "Specialist module inside Market Access",
+        "Procurement rules are specialised. A separate program is not justified until procurement pathways for startups are confirmed (assumption A3).",
+        "Network Lead with Portfolio Office",
+        "M4+ with a public-sector use case."
+      ],
+      [
+        "Soft landing",
+        "Standalone program (TASMU)",
+        "A distinct population, distinct methodology and distinct value.",
+        "TASMU Lead",
+        "Gate E4."
+      ],
+      [
+        "International expansion",
+        "Standalone program (Scale Now) plus a light GTM service",
+        "Same reasoning as above. The GTM Specialist also supports ad hoc export enquiries from M7 alumni.",
+        "Scale Now Lead / GTM Specialist",
+        "Gate E5."
+      ],
+      [
+        "Founder development",
+        "Embedded in each program, plus peer circles in Alumni",
+        "Founder needs change with stage. Standalone leadership programs tend to drift into generic training.",
+        "Program Leads; Community Lead",
+        "Program-specific."
+      ],
+      [
+        "Technology and product support (including AI adoption)",
+        "Cross-program specialist pool",
+        "Concentrated in M2–M5 but needed across the journey. AI adoption is a capability theme, not a population, so a standalone AI program is not justified.",
+        "DIC Lead (pool owner)",
+        "Diagnostic-triggered."
+      ],
+      [
+        "Legal and regulatory",
+        "Cross-program service (\"Regulatory Navigator\") plus referral",
+        "Critical for fintech, health and data-intensive models at every stage. Regulators own the sandboxes; MCIT navigates.",
+        "Portfolio Office (coordination); external panel",
+        "Contextual criterion flagged at any gate."
+      ],
+      [
+        "Deep tech pathway",
+        "Referral partnership plus monitored DIC relationship",
+        "Timelines and capital needs do not fit cohort programs. Better served by R&D-focused partners (assumption A4).",
+        "DIC Lead",
+        "Technical milestone plan at entry."
+      ],
+      [
+        "Talent access",
+        "Cross-program light service (job board, university links)",
+        "Real need, but MCIT has limited levers. Revisit if hiring is shown to be the binding constraint.",
+        "Community Lead",
+        "M5+."
+      ],
+      [
+        "Mentorship",
+        "Embedded with a shared pool tagged by stage, sector and capability (as in the reference framework)",
+        "Mentoring is a delivery method, not a program. Mentor matches are tied to a stated evidence gap.",
+        "Network Lead (Partners & Mentors Specialist)",
+        "Match requests must cite a milestone."
+      ],
+      [
+        "Alumni support",
+        "Standalone relationship program",
+        "Required for attribution, give-back and re-entry.",
+        "Community Lead (Alumni Specialist)",
+        "Completion of any program."
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "SERVICE RULE\nProgram leads stay accountable for startup outcomes. Shared-service owners are accountable for supply, quality and response times. This keeps the reference framework’s RACI principle and adds a maturity trigger so scarce services (investor time, corporate pilots) are not spent on startups that are not ready for them."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "11. KPI and Performance Framework",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "The hierarchy below runs from what the portfolio delivers to what changes in the economy. Volume metrics are kept only where they serve an operational purpose, and are not used as success measures.",
+    "style": ""
+  },
+  {
+    "kind": "heading",
+    "text": "11.1 Tier 1 — Activity and output (operational management only)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "KPI",
+        "Definition",
+        "Why it is kept"
+      ],
+      [
+        "Qualified pipeline",
+        "Applicants who pass any entry gate ÷ total applicants, by channel",
+        "Tests marketing quality, not volume."
+      ],
+      [
+        "Routing cycle time",
+        "Working days from complete application to routing decision",
+        "Service standard (≤15 days)."
+      ],
+      [
+        "Service response time",
+        "Days from service request to match (mentor, investor, pilot)",
+        "Tests shared-service capacity."
+      ],
+      [
+        "Evidence completeness",
+        "Share of active startups with an up-to-date maturity record",
+        "A precondition for every other KPI."
+      ],
+      [
+        "Cost per startup by program",
+        "Total program cost ÷ enrolled startups",
+        "Value-for-money comparisons."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "11.2 Tier 2 — Startup development (what changes inside startups)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "KPI",
+        "Definition",
+        "Programs"
+      ],
+      [
+        "Maturity uplift",
+        "Share of enrolled startups moving up at least one verified stage during the program",
+        "All core"
+      ],
+      [
+        "Time-to-stage",
+        "Median months between verified stages, by model",
+        "All"
+      ],
+      [
+        "Paid conversion of pilots",
+        "Pilots converted to paid contracts within 6 months ÷ pilots started",
+        "DIC, Local Growth, TASMU"
+      ],
+      [
+        "Retention and NRR improvement",
+        "Change in cohort retention or net revenue retention, entry vs exit",
+        "Local Growth"
+      ],
+      [
+        "Investment readiness",
+        "Share meeting the Capital Readiness checklist",
+        "DIC, Local Growth"
+      ],
+      [
+        "Evidence-based stop rate",
+        "Share of Pre-incubation teams making an evidenced stop or pivot",
+        "Pre-incubation (healthy band, not a target)"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "11.3 Tier 3 — Program outcomes",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "KPI",
+        "Definition",
+        "Programs"
+      ],
+      [
+        "Graduation rate",
+        "Graduates (met exit gate) ÷ enrolled",
+        "All core"
+      ],
+      [
+        "Qualification rate",
+        "Graduates qualifying for the next program or directly for private capital ÷ graduates",
+        "All core"
+      ],
+      [
+        "Capital mobilised",
+        "Third-party equity and debt raised within 12 and 24 months of exit; leverage ratio vs program cost",
+        "DIC, Local Growth, Scale Now"
+      ],
+      [
+        "Qatar revenue under contract",
+        "Contracted Qatar revenue at 12 months",
+        "TASMU, Local Growth"
+      ],
+      [
+        "Local substance",
+        "Qatar headcount and entity retention at 24 months",
+        "TASMU"
+      ],
+      [
+        "International revenue",
+        "Revenue from outside Qatar at 12 and 24 months; number of markets with paying customers",
+        "Scale Now"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "11.4 Tier 4 — Portfolio and ecosystem impact",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "KPI",
+        "Definition",
+        "Note"
+      ],
+      [
+        "3- and 5-year survival",
+        "Share of graduates still operating",
+        "Compare with a reference group (11.5)."
+      ],
+      [
+        "Portfolio revenue and jobs in Qatar",
+        "Aggregate revenue and Qatar-based jobs of active alumni",
+        "Collected through the alumni data return."
+      ],
+      [
+        "Companies reaching M7 and M9",
+        "Count of Qatar-anchored companies at repeatable growth and international expansion",
+        "The headline portfolio outcome."
+      ],
+      [
+        "Follow-on capital",
+        "Cumulative capital raised by alumni",
+        "Include valuation only when priced."
+      ],
+      [
+        "Alumni give-back",
+        "Alumni acting as mentors, angels or buyers; alumni angel cheques",
+        "Ecosystem self-sufficiency signal."
+      ],
+      [
+        "Cross-program conversion",
+        "DIC→Local Growth→Scale Now conversion, including direct entries",
+        "The integration test from the reference framework, kept."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "11.5 Measurement integrity",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "Attribution. Track near-threshold applicants who were declined as a light comparison group, to estimate program contribution rather than assume it.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Re-baseline the history. The reported 415+ DIC graduates, 76+ TASMU startups supported and 30 Scale Now graduates use different definitions. Restate them as completion versus graduation before any targets are set.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Do not target the stop rate or the graduation rate in isolation. Both are easy to game. Pair graduation with 12-month outcomes.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "text",
+    "text": "Data return as a condition of support: annual alumni data submission is written into participation agreements.",
+    "style": "List Paragraph"
+  },
+  {
+    "kind": "heading",
+    "text": "12. Portfolio Governance Principles",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Principle",
+        "Application"
+      ],
+      [
+        "Separate delivery from judgment",
+        "Program leads prepare evidence. The Gate Panel decides Readiness (E3) and Scale (E5) gates and exits X3 and X5, and includes at least one external investor or operator. The reference monthly Portfolio Committee is kept for capacity, routing escalation and portfolio decisions."
+      ],
+      [
+        "One record, one definition",
+        "The Portfolio Office owns the startup master record, maturity definitions and KPI dictionary (as in the reference framework)."
+      ],
+      [
+        "Maturity-gated scarcity",
+        "Investor, corporate and mission access are allocated by maturity trigger and are reviewed quarterly by the Portfolio Committee."
+      ],
+      [
+        "Capped residency, explicit exits",
+        "Every core program has a maximum duration. Extensions need a documented gap and plan."
+      ],
+      [
+        "Cost-sharing that rises with maturity",
+        "Free at M0–M2; in-kind contribution in Incubation; co-payment or success-linked terms in Local Growth, TASMU and Scale Now (to be confirmed with Legal and Finance, assumption A8)."
+      ],
+      [
+        "Conflict-of-interest management",
+        "Panel members declare interests. Vendor-delivered programs cannot certify their own graduates."
+      ],
+      [
+        "Appeals",
+        "One written appeal per gate decision, reviewed by the Enablement Expert."
+      ],
+      [
+        "Vendor accountability tied to development outcomes",
+        "Vendor KPIs use Tier 2 and Tier 3 metrics, not attendance or session counts."
+      ],
+      [
+        "Annual architecture review",
+        "Recalibrate thresholds, bands and residency limits against outcome data."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "13. Gap and Overlap Analysis",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "This tests both the reference framework and the proposed architecture. Severity is rated for the reference framework as it stands.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Test",
+        "Finding in reference framework",
+        "Severity",
+        "Resolution in this architecture"
+      ],
+      [
+        "Gaps in the journey",
+        "No owner for early traction → PMF. DIC exits at \"early traction\", and the Local Growth scope (\"commercial growth, readiness and investment\") overlaps without a PMF objective.",
+        "High",
+        "Local Growth re-scoped to M5→M7, with PMF as a mandatory exit."
+      ],
+      [
+        "Gaps in the journey",
+        "Nothing serves soft-landed companies after TASMU apart from Scale Now, which assumes Qatar anchoring.",
+        "Medium",
+        "Post-TASMU route to Market Access plus alumni; Scale Now only after the substance test."
+      ],
+      [
+        "Program overlaps",
+        "Pipeline (Discover) and DIC Pre-incubation both claim ideation.",
+        "Medium",
+        "Pipeline reclassified as a function; Pre-incubation owns M0→M2."
+      ],
+      [
+        "Program overlaps",
+        "Local Growth and TASMU are both \"acceleration\" with no differentiating axis.",
+        "Medium",
+        "Separated on the market axis."
+      ],
+      [
+        "Ambiguous ownership",
+        "Gate decisions sit with a committee made up mainly of program leads, which mixes delivery with judgment.",
+        "High",
+        "Independent Gate Panel for E3, E5, X3 and X5."
+      ],
+      [
+        "Ambiguous ownership",
+        "Investment-readiness content is spread across programs and the Network.",
+        "Medium",
+        "Capital Readiness service with one owner."
+      ],
+      [
+        "Duplicated interventions",
+        "Mentoring, investor events and corporate introductions are listed in several programs.",
+        "Medium",
+        "Delivered once as shared services with maturity triggers."
+      ],
+      [
+        "Weak entry gate",
+        "\"Clear growth and funding plan\" and \"credible raise plan\" are assertions, not evidence.",
+        "High",
+        "Replaced by verified capital or a conditional admit with a deadline."
+      ],
+      [
+        "Weak entry gate",
+        "\"First paying customers or signed pilots\": unpaid pilots pass.",
+        "High",
+        "Paid, unaffiliated demand required; unpaid pilots count as M2 evidence only."
+      ],
+      [
+        "Internal inconsistency",
+        "The Pipeline → DIC gate requires a validated problem and Qatar registration, yet DIC includes pre-incubation, whose exit is a validated problem.",
+        "High",
+        "Separate gates E1 and E2; registration only at E2."
+      ],
+      [
+        "Weak exit gate",
+        "Scale Now exit is \"successful expansion\"; DIC exit is the \"Readiness Gate\", which is another program’s entry.",
+        "High",
+        "Measurable exits X1–X5, separate from entry gates."
+      ],
+      [
+        "Arbitrary criteria",
+        "Uniform criteria regardless of model (revenue, pilots).",
+        "Medium",
+        "Evidence equivalence table (7.3)."
+      ],
+      [
+        "Missing pathways",
+        "Pivot, regression, deep tech and ineligibility are not defined.",
+        "Medium",
+        "Scenario rules in 9.2."
+      ],
+      [
+        "Stage leakage",
+        "Startups can stay in DIC indefinitely, or enter Scale Now pre-PMF through a \"credible plan\".",
+        "Medium",
+        "Residency caps; M7 mandatory for Scale Now."
+      ],
+      [
+        "Gaming risk",
+        "Related-party revenue, unpriced LOIs, one-off consulting revenue, nominal Qatar entities.",
+        "High",
+        "Integrity rules, reference calls chosen by the assessor, payroll evidence for substance."
+      ],
+      [
+        "Weak value proposition",
+        "Alumni tiers are based on the last program completed, so a DIC alumnus at M8 is \"Foundation\".",
+        "Medium",
+        "Tiers set by current verified maturity."
+      ],
+      [
+        "Activity–outcome misalignment",
+        "Pitch or demo days as the culmination of early-stage programs reward storytelling.",
+        "Medium",
+        "Evidence demo days; vendor KPIs on development outcomes."
+      ],
+      [
+        "Trapped startups",
+        "A TASMU graduate cannot meet the Scale Now anchoring condition and has no other program.",
+        "Medium",
+        "Market Access plus alumni Growth tier with periodic reassessment."
+      ],
+      [
+        "Trapped startups",
+        "A DIC graduate at M4 does not meet the Local Growth entry gate (M5).",
+        "Medium",
+        "Market Access service plus a 6-month hold-and-strengthen route."
+      ],
+      [
+        "Multiple qualification",
+        "A strong startup could qualify for both DIC and Local Growth, or both Local Growth and Scale Now.",
+        "Low",
+        "The \"highest matching band\" rule plus one core program at a time."
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "RESIDUAL WEAKNESSES OF THIS ARCHITECTURE (STATED HONESTLY)\nGate assessment is more demanding and needs analyst capacity in the Portfolio Office. Two Portfolio Office roles may not be enough at full volume.\nThe M5→M7 band is the hardest to deliver well and the most expensive. Local Growth outcomes will take 12–24 months to show.\nIndicative thresholds are hypotheses until calibrated against two cohorts of outcome data."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "14. Key Design Decisions and Their Rationale",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "heading",
+    "text": "D1 — Maturity, not program completion, drives progression",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Adopt M0–M9 as the basis for every gate, KPI and routing decision."
+      ],
+      [
+        "Rationale",
+        "Completion-based progression rewards attendance and creates pressure to graduate weak startups."
+      ],
+      [
+        "Evidence / principle",
+        "Stage-gate principles from venture investing: capital follows evidence, not elapsed time."
+      ],
+      [
+        "Implementation implication",
+        "Startup record schema, assessor training, re-baselining of historical data."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D2 — Two-axis assessment",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Assess venture maturity and market position separately."
+      ],
+      [
+        "Rationale",
+        "International and local startups at the same company maturity need different interventions."
+      ],
+      [
+        "Evidence / principle",
+        "Market-entry risk is market-specific; firms proven at home still have to validate in each new market."
+      ],
+      [
+        "Implementation implication",
+        "TASMU and Scale Now gates are defined on the market axis."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D3 — Local Growth owns the PMF band",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Re-scope Local Growth to M5→M7 with PMF as a mandatory exit."
+      ],
+      [
+        "Rationale",
+        "This is the widest gap and the costliest failure point, and no current program owns it."
+      ],
+      [
+        "Evidence / principle",
+        "PMF is the main predictor of follow-on fundability; premature scaling is a common failure mode."
+      ],
+      [
+        "Implementation implication",
+        "Program design for the AOP submission; vendor specification focused on commercial and retention work."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D4 — Independent gates",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "A Gate Panel with external members decides the Readiness and Scale gates."
+      ],
+      [
+        "Rationale",
+        "Removes the incentive conflict for programs judging their own outputs."
+      ],
+      [
+        "Evidence / principle",
+        "Separating delivery from assurance is a basic control principle."
+      ],
+      [
+        "Implementation implication",
+        "Recruit 6–10 rotating external panellists; panel terms of reference."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D5 — Services, not new programs",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Capital, market access, regulation and technology run as cross-program services."
+      ],
+      [
+        "Rationale",
+        "Needs span several stages; separate programs would add handovers and duplicate cohorts."
+      ],
+      [
+        "Evidence / principle",
+        "Matches the reference shared-capability model."
+      ],
+      [
+        "Implementation implication",
+        "Service catalogue update; maturity triggers in the catalogue."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D6 — Light, open pre-incubation",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Remove registration; keep costs low; deliver mostly through partners."
+      ],
+      [
+        "Rationale",
+        "Ideation has high volume and high failure, so the cost per founder must stay low."
+      ],
+      [
+        "Evidence / principle",
+        "At early stages the value is in cheap filtering, not in deep support."
+      ],
+      [
+        "Implementation implication",
+        "Partner model with universities and community; evidence demo days."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D7 — Qatar substance conditions",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Substance tests for TASMU graduation and soft-landed access to Scale Now."
+      ],
+      [
+        "Rationale",
+        "Protects the public return on support given to foreign firms."
+      ],
+      [
+        "Evidence / principle",
+        "Conditional incentives are standard in investment attraction."
+      ],
+      [
+        "Implementation implication",
+        "Payroll and registry verification; legal review of clawback terms."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "D8 — Maturity-based alumni tiers",
+    "style": "Heading 3"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Recommendation",
+        "Alumni tier reflects current verified maturity; membership reflects completion."
+      ],
+      [
+        "Rationale",
+        "Access to scarce services should follow need and readiness, not history."
+      ],
+      [
+        "Evidence / principle",
+        "Consistent with D1."
+      ],
+      [
+        "Implementation implication",
+        "Annual alumni check-in becomes mandatory for access."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "15. Risks and Design Trade-Offs",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "heading",
+    "text": "15.1 Trade-offs",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Trade-off",
+        "Choice made",
+        "What is given up",
+        "Mitigation"
+      ],
+      [
+        "Rigour vs accessibility",
+        "Evidence-heavy gates from E2 onward",
+        "Some promising but under-documented founders",
+        "Light E1; hold-and-strengthen route; assessors help founders gather evidence."
+      ],
+      [
+        "Selectivity vs volume KPIs",
+        "Fewer, better-qualified startups at M5+",
+        "Headline \"number supported\" figures fall",
+        "Report development and outcome tiers; re-baseline the history."
+      ],
+      [
+        "Independence vs speed",
+        "External Gate Panel",
+        "Slower decisions; panel cost",
+        "Monthly panel; reuse of exit evidence; 15-day standard."
+      ],
+      [
+        "Standardisation vs model nuance",
+        "Common maturity model with an evidence equivalence table",
+        "Simplicity of a single threshold",
+        "Assessor training; annual calibration."
+      ],
+      [
+        "Substance conditions vs attractiveness to foreign firms",
+        "Substance required for graduation",
+        "Some international applicants",
+        "Clear conditions up front; proportionate thresholds."
+      ],
+      [
+        "Cost-sharing vs inclusion",
+        "Co-payment at later stages",
+        "Cash-constrained startups",
+        "Deferred or success-linked terms; waivers for strategic sectors."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "15.2 Implementation risks",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Risk",
+        "Impact",
+        "Mitigation"
+      ],
+      [
+        "Gate inflation under pressure to report numbers",
+        "Graduation loses meaning",
+        "Independent panel; publish definitions; pair graduation with 12-month outcomes."
+      ],
+      [
+        "Portfolio Office capacity",
+        "Slow routing; poor data",
+        "Phase in assessment depth; analyst support from the vendor contract; tooling."
+      ],
+      [
+        "Insufficient M5+ deal flow for Local Growth",
+        "Under-filled cohorts",
+        "Rolling admission or small cohorts; direct-entry marketing; validate with baseline data first (A1)."
+      ],
+      [
+        "Corporate and government pilot fatigue",
+        "Partners disengage",
+        "Pilot standard (paid, scoped, conversion path); one owner per partner."
+      ],
+      [
+        "Disruption to active cohorts",
+        "Service continuity",
+        "Apply new gates to new intakes only; TASMU Cohort 4 (Jul–Dec 2026) unchanged, as in the reference roadmap."
+      ],
+      [
+        "Founder perception of \"harder\" programs",
+        "Applications fall",
+        "Communicate gates as a fast way to get the right support; publish routing feedback."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "15.3 Assumption register",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "#",
+        "Assumption",
+        "If it proves wrong"
+      ],
+      [
+        "A1",
+        "No other national program serves M5–M7 Qatar-anchored digital startups at scale.",
+        "Make Local Growth a co-delivery or referral partnership."
+      ],
+      [
+        "A2",
+        "The local angel and seed market is thin for M4–M6 startups.",
+        "If the market is deep, reduce Capital Readiness to matchmaking and shift resources to Market Access."
+      ],
+      [
+        "A3",
+        "Access to corporate and government buyers is the main commercial constraint in Qatar, and procurement can accommodate startups.",
+        "If procurement is closed to startups, add a procurement-reform workstream with the relevant authorities rather than more pilots."
+      ],
+      [
+        "A4",
+        "Specialist deep-tech and R&D partners exist to take referrals.",
+        "Create a deep-tech track within DIC with extended residency and milestone funding."
+      ],
+      [
+        "A5",
+        "Historical program data can be restated to the new definitions.",
+        "Treat 2027 as year zero; report history separately."
+      ],
+      [
+        "A6",
+        "A 12-month evidenced Qatar substance period is enough to show anchoring for Scale Now.",
+        "Adjust the period or the substance criteria using TASMU retention data."
+      ],
+      [
+        "A7",
+        "Existing DIC investment initiatives can be folded into the Capital Readiness service.",
+        "Keep them as branded events under the service, with gates aligned."
+      ],
+      [
+        "A8",
+        "Cost-sharing and clawback are legally and procedurally feasible.",
+        "Use non-financial commitments (data return, give-back, HQ retention undertakings)."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "16. Final Recommended Architecture",
+    "style": "Heading 1"
+  },
+  {
+    "kind": "text",
+    "text": "Five core programs, one alumni program, one shared pipeline function and four cross-program services, all governed by one maturity model and independent gates.",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Layer",
+        "Components"
+      ],
+      [
+        "Diagnostic layer",
+        "Venture Maturity Model M0–M9 × market position (Q / Q-entry / Q+X); one startup record."
+      ],
+      [
+        "Pipeline function",
+        "Pipeline & Discovery (Community and Marketing)."
+      ],
+      [
+        "Core programs",
+        "DIC Pre-incubation (M0→M2) • DIC Incubation (M2→M4/5) • Local Growth Acceleration (M5→M7) • TASMU Accelerator (Q-entry M2→M5) • Scale Now (M7+, target market → M4/5)."
+      ],
+      [
+        "Cross-program services",
+        "Capital Readiness • Market Access (corporate and government) • Regulatory Navigator • Technology and Product specialist pool (plus light talent and GTM services)."
+      ],
+      [
+        "Relationship layer",
+        "MCIT Alumni Program: membership by completion, tier by current maturity, give-back loop, fast-track re-entry."
+      ],
+      [
+        "Governance",
+        "Portfolio Office (evidence, routing, data) • Gate Panel (independent decisions) • Portfolio Committee (capacity, escalation) • annual architecture review."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "16.1 Program architecture sheets",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "heading",
+    "text": "DIC Pre-incubation (Explore track)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program thesis",
+        "Cheap, disciplined validation increases the share of founders who either reach a validated solution or stop early, which improves the quality of the incubation pipeline."
+      ],
+      [
+        "Strategic objective",
+        "Convert M0–M1 founders into M2 teams with commitment evidence, or into an evidence-based stop."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-resident individuals and teams with a tech-enabled problem hypothesis."
+      ],
+      [
+        "Not for",
+        "Validated teams; non-tech businesses; research projects with no customer hypothesis."
+      ],
+      [
+        "Maturity at entry",
+        "M0–M1."
+      ],
+      [
+        "Entry gates",
+        "E1: commitment (mandatory), problem specificity (35%), coachability (35%), team (30%), tech relevance and residency (mandatory)."
+      ],
+      [
+        "Primary interventions",
+        "Discovery sprints; buyer introductions; prototype and smoke-test kits; co-founder matching; evidence demo day."
+      ],
+      [
+        "Required milestones",
+        "Interview log at the M1 standard; prototype test; commitment evidence; team decision."
+      ],
+      [
+        "Exit gates",
+        "X1: M1 verified (mandatory); M2 commitment (mandatory for graduation)."
+      ],
+      [
+        "Expected outcomes",
+        "Validated teams for E2; early, cheap stops."
+      ],
+      [
+        "Next-stage routing",
+        "Incubation gate (E2); repeat one sprint; pivot; stop; refer."
+      ],
+      [
+        "KPIs",
+        "Share reaching M2; share passing E2 within 6 months; cost per validated team; evidence-based stop rate (monitored)."
+      ],
+      [
+        "Key risks",
+        "Turning into an events program; volume targets; partner quality variance."
+      ],
+      [
+        "Rationale",
+        "Ideation has high failure, so cost per founder must be low; value lies in filtering and method."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "DIC Incubation",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program thesis",
+        "Product support combined with structured access to paying first customers turns validated solutions into products that customers pay for."
+      ],
+      [
+        "Strategic objective",
+        "Move M2 teams to verified M4 (willingness to pay), with M5 emerging."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-registered, committed founding teams with a validated problem and commitment evidence."
+      ],
+      [
+        "Not for",
+        "Startups with recurring revenue and retention data; unvalidated ideas; long-horizon deep tech (referral track)."
+      ],
+      [
+        "Maturity at entry",
+        "M2 (M3 accepted)."
+      ],
+      [
+        "Entry gates",
+        "E2: M1 and M2 evidence, committed team, registration within 60 days (mandatory); build capability (25%); market attractiveness (20%); cap table and IP (contextual)."
+      ],
+      [
+        "Primary interventions",
+        "Product and technical advisory; pilot structuring with conversion clauses; pricing coaching; first-customer introductions; investment-readiness basics."
+      ],
+      [
+        "Required milestones",
+        "MVP live and instrumented (M3); first paid commitment; repeated paid commitment from unaffiliated customers (M4); metrics pack."
+      ],
+      [
+        "Exit gates",
+        "X2: M3 and M4 verified; readiness basics complete (mandatory); M5 signal (directional)."
+      ],
+      [
+        "Expected outcomes",
+        "Startups with paying customers and a clean investment base."
+      ],
+      [
+        "Next-stage routing",
+        "Readiness Gate (E3) if M5; Market Access plus hold if M4; alumni; exit."
+      ],
+      [
+        "KPIs",
+        "Share reaching verified M4; paid pilot conversion; time-to-M4; capital raised within 12 months; 3-year survival."
+      ],
+      [
+        "Key risks",
+        "Pilot purgatory; residency drift; completion counted as graduation."
+      ],
+      [
+        "Rationale",
+        "The prototype-to-revenue step is where validated teams most often fail; buyer access in Qatar is a market failure MCIT can address."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "Local Growth Acceleration",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program thesis",
+        "Focused work on retention, segment, pricing and the first non-founder channel, together with readiness-gated capital and contract access, moves early-traction startups to evidenced PMF and repeatability."
+      ],
+      [
+        "Strategic objective",
+        "Move M5 startups to verified M6, with M7 emerging, and make them institutionally fundable."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-anchored startups with paying unaffiliated customers, a growth trend and a full-time team."
+      ],
+      [
+        "Not for",
+        "Pre-revenue; already at M7; international entrants; non-scalable service businesses."
+      ],
+      [
+        "Maturity at entry",
+        "M5."
+      ],
+      [
+        "Entry gates",
+        "E3 (Readiness Gate): paid unaffiliated demand, runway, Qatar anchoring (mandatory); traction trend (30%); retention signal (25%); scalability (25%); founder openness (20%)."
+      ],
+      [
+        "Primary interventions",
+        "Retention and cohort diagnostics; segment and pricing work; sales and channel playbook with the first non-founder seller; contract access; capital readiness and investor access."
+      ],
+      [
+        "Required milestones",
+        "ICP defined; retention baseline and improvement; channel experiments; non-founder revenue; capital outcome."
+      ],
+      [
+        "Exit gates",
+        "X3: M6 and unit-economics trend (mandatory); repeatable channel and capital outcome (directional)."
+      ],
+      [
+        "Expected outcomes",
+        "PMF-evidenced, fundable startups with an emerging growth engine."
+      ],
+      [
+        "Next-stage routing",
+        "Scale Gate (E5) when M7 is verified; private capital; alumni Growth tier; 6-month reassessment."
+      ],
+      [
+        "KPIs",
+        "Share reaching M6; retention and NRR uplift; capital mobilised at 12 and 24 months; share reaching M7 within 18 months."
+      ],
+      [
+        "Key risks",
+        "Insufficient M5 deal flow (A1); turning into a generic accelerator; hard-to-measure PMF."
+      ],
+      [
+        "Rationale",
+        "Closes the largest gap in the reference journey with a distinct value proposition."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "TASMU Accelerator (Soft Landing)",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program thesis",
+        "Lowering entry costs for proven international companies in priority sectors, in return for local substance, imports capability and builds Qatar-based companies."
+      ],
+      [
+        "Strategic objective",
+        "Move PMF-stage international companies from Qatar market M2–M4 to paid Qatar contracts with local substance."
+      ],
+      [
+        "Target startup profile",
+        "International companies at venture M6+ with Qatar buyer fit in priority sectors."
+      ],
+      [
+        "Not for",
+        "Pre-PMF companies; sales-trip seekers; firms unwilling to build substance; Qatar-anchored startups."
+      ],
+      [
+        "Maturity at entry",
+        "Venture ≥ M6; Qatar market M2–M4."
+      ],
+      [
+        "Entry gates",
+        "E4: home-market PMF, buyer fit, substance commitment (mandatory); sector fit (20%); Qatar readiness (25%); funding capacity (25%)."
+      ],
+      [
+        "Primary interventions",
+        "Challenge-owner matching; regulatory and set-up navigation; localisation; local talent and partners; pilot-to-contract support."
+      ],
+      [
+        "Required milestones",
+        "Entity set up; paid pilot signed; first local hire; pilot results; follow-on contract."
+      ],
+      [
+        "Exit gates",
+        "X4: paid Qatar pilot or contract and substance in place (mandatory); conversion and a second customer (directional)."
+      ],
+      [
+        "Expected outcomes",
+        "Foreign firms operating in Qatar with contracted revenue and local staff."
+      ],
+      [
+        "Next-stage routing",
+        "Market Access plus alumni Growth; Scale Now only after the substance period (A6)."
+      ],
+      [
+        "KPIs",
+        "Paid pilot rate; pilot-to-contract conversion at 12 months; Qatar headcount and entity retention at 24 months; Qatar revenue."
+      ],
+      [
+        "Key risks",
+        "Subsidising market tourism; pilot fatigue among challenge owners; nominal entities."
+      ],
+      [
+        "Rationale",
+        "A distinct population and value; the market axis removes overlap with Local Growth."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "Scale Now",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program thesis",
+        "Evidence-based market selection and pre-qualified in-market access, cost-shared and followed up, raise the success rate of Qatar-anchored companies expanding abroad."
+      ],
+      [
+        "Strategic objective",
+        "Move M7+ Qatar-anchored companies to paying customers and a sustainable presence in 1–2 external markets."
+      ],
+      [
+        "Target startup profile",
+        "Qatar-anchored companies with repeatable growth, sound unit economics and capital for expansion."
+      ],
+      [
+        "Not for",
+        "Pre-M7; nominal Qatar presence; under-capitalised firms."
+      ],
+      [
+        "Maturity at entry",
+        "Venture M7+ (Q); target market M0–M2."
+      ],
+      [
+        "Entry gates",
+        "E5 (Scale Gate): M7, unit economics, verified capital, anchoring (mandatory); market evidence (30%); bandwidth (30%); regulatory transferability (40%)."
+      ],
+      [
+        "Primary interventions",
+        "Market selection diagnostic; pre-qualified meetings; entity and partner set-up; cross-border capital; 6–12 months of in-market follow-up."
+      ],
+      [
+        "Required milestones",
+        "Market chosen; entry vehicle in place; first in-market customer; local GTM owner; repeat revenue."
+      ],
+      [
+        "Exit gates",
+        "X5: entry vehicle, paying customers, Qatar HQ retained (mandatory); in-market repeatable revenue (directional)."
+      ],
+      [
+        "Expected outcomes",
+        "Qatar-headquartered companies earning international revenue."
+      ],
+      [
+        "Next-stage routing",
+        "Alumni Global; exit from subsidised support; GTM service for further markets."
+      ],
+      [
+        "KPIs",
+        "Share with paying customers in the target market at 12 months; international revenue share; HQ retention; capital raised."
+      ],
+      [
+        "Key risks",
+        "Flag-planting without revenue; HQ relocation; mission-driven rather than market-driven choices."
+      ],
+      [
+        "Rationale",
+        "The last subsidised step; cost-sharing and HQ conditions protect the public return."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "MCIT Alumni Program",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Program thesis",
+        "A structured, data-linked alumni relationship captures long-term impact, recycles founder expertise into the ecosystem and catches companies that need to re-enter."
+      ],
+      [
+        "Strategic objective",
+        "Maintain an active, measured alumni base that contributes back and re-enters at the right stage."
+      ],
+      [
+        "Target startup profile",
+        "All companies completing any MCIT program."
+      ],
+      [
+        "Not for",
+        "Not a channel for continued subsidy."
+      ],
+      [
+        "Maturity at entry",
+        "Completion of any core program."
+      ],
+      [
+        "Entry gates",
+        "Membership on completion; tier (Foundation M0–M4, Growth M5–M7, Global M8–M9) by current verified maturity; annual good standing (data return)."
+      ],
+      [
+        "Primary interventions",
+        "Annual check-in; maturity-matched invitations; give-back roles; fast-track reassessment."
+      ],
+      [
+        "Required milestones",
+        "Annual data return; tier review."
+      ],
+      [
+        "Exit gates",
+        "Lapses without good standing; responsible exit if dissolved."
+      ],
+      [
+        "Expected outcomes",
+        "Survival and impact data; mentor and angel supply; re-entry pipeline."
+      ],
+      [
+        "Next-stage routing",
+        "Re-entry to any program through reassessment."
+      ],
+      [
+        "KPIs",
+        "Data-return rate; active alumni; give-back activity; re-entry outcomes."
+      ],
+      [
+        "Key risks",
+        "Low engagement; tiers seen as status rather than access."
+      ],
+      [
+        "Rationale",
+        "Without it, attribution and give-back capacity are lost."
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "16.2 Visual logic — single-startup view",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "text",
+    "text": "Use this as the source structure for an executive visual (one row per program).",
+    "style": ""
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Startup maturity",
+        "Entry gate",
+        "Program / intervention",
+        "Development milestones",
+        "Exit gate",
+        "Routing decision",
+        "Next stage / alumni / specialist"
+      ],
+      [
+        "M0–M1",
+        "E1 Commitment and specificity",
+        "DIC Pre-incubation",
+        "Problem validated → solution commitment",
+        "X1 M1 + M2",
+        "Progress / repeat / pivot / stop",
+        "Incubation • partner referral"
+      ],
+      [
+        "M2",
+        "E2 Validated problem and solution, team, entity",
+        "DIC Incubation",
+        "MVP live → paid commitment",
+        "X2 M3 + M4",
+        "Progress / hold / exit",
+        "Local Growth • Market Access • alumni"
+      ],
+      [
+        "M5",
+        "E3 Readiness Gate",
+        "Local Growth Acceleration",
+        "Retention → PMF → first channel",
+        "X3 M6 (+M7 emerging)",
+        "Progress / alumni / reassess",
+        "Scale Now • private capital • alumni Growth"
+      ],
+      [
+        "Venture M6+, Qatar M2–M4",
+        "E4 Soft-landing entry",
+        "TASMU Accelerator",
+        "Entity → paid pilot → local hire",
+        "X4 Qatar M4 + substance",
+        "Market Access / alumni",
+        "Scale Now after the substance period"
+      ],
+      [
+        "M7+ (Q)",
+        "E5 Scale Gate",
+        "Scale Now",
+        "Market choice → entry vehicle → first customers",
+        "X5 Target market M4 + HQ",
+        "Exit from subsidy",
+        "Alumni Global"
+      ]
+    ]
+  },
+  {
+    "kind": "heading",
+    "text": "16.3 Visual logic — portfolio view",
+    "style": "Heading 2"
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "Maturity",
+        "M0–M2",
+        "M2–M4",
+        "M5–M7",
+        "M7–M9",
+        "Beyond"
+      ],
+      [
+        "Qatar-anchored track",
+        "DIC Pre-incubation",
+        "DIC Incubation",
+        "Local Growth Acceleration",
+        "Scale Now",
+        "Private markets"
+      ],
+      [
+        "International track",
+        "—",
+        "—",
+        "TASMU Accelerator (Qatar entry)",
+        "Scale Now (after substance period)",
+        "Private markets"
+      ],
+      [
+        "Gates",
+        "E1 → X1",
+        "E2 → X2",
+        "E3 → X3 / E4 → X4",
+        "E5 → X5",
+        "—"
+      ],
+      [
+        "Cross-program services",
+        "Tech pool (light)",
+        "Tech pool • Market Access • Regulatory",
+        "Capital Readiness • Market Access • Regulatory",
+        "Capital (cross-border) • GTM",
+        "—"
+      ],
+      [
+        "Support intensity",
+        "Low cost, high volume",
+        "Medium, selective",
+        "High, highly selective",
+        "Medium, cost-shared",
+        "Convener only"
+      ],
+      [
+        "Alumni tier",
+        "Foundation",
+        "Foundation",
+        "Growth",
+        "Global",
+        "Global"
+      ],
+      [
+        "Feed-in",
+        "Pipeline & Discovery",
+        "Direct entry",
+        "Direct entry",
+        "Direct entry",
+        "Give-back loop"
+      ]
+    ]
+  },
+  {
+    "kind": "table",
+    "rows": [
+      [
+        "RECOMMENDED NEXT STEPS\n1. Endorse the maturity model, gates and the re-scoped Local Growth band.\n2. Portfolio Office restates historical data (A5) and runs the M5–M7 supply mapping (A1).\n3. Recruit the Gate Panel and train assessors on the evidence equivalence table.\n4. Pilot the gates on the first 2027 intakes; recalibrate thresholds after two cohorts."
+      ]
+    ]
+  }
+]

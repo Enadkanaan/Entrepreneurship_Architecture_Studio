@@ -1,0 +1,27 @@
+
+> entrepreneurship-architecture-studio@1.0.0 test
+> node --test tests/*.test.js
+
+✔ All structured references validate (5.502192ms)
+✔ Ten maturity stages, six program propositions, ten gates (0.167234ms)
+✔ All 16 source sections retained (0.10486ms)
+✔ JSON round trip is lossless (37.54754ms)
+✔ Malformed import rejected (0.290637ms)
+✔ Broken relationships rejected (4.895566ms)
+✔ Scenario A: no MVP does not disqualify Incubation entry (0.699494ms)
+✔ Scenario B: product and users without paid demand do not qualify for Local Growth (0.603787ms)
+✔ Scenario C: PMF alone does not qualify for Scale Now (0.751302ms)
+✔ Scenario D: X3 graduation is independent of E5 capital (0.544353ms)
+✔ Unverified mandatory evidence never passes (1.026935ms)
+✔ Not applicable mandatory condition requires review (0.129027ms)
+✔ X1 lower-maturity graduation conflict is flagged (0.615336ms)
+✔ No weighted score invented for incomplete E2/E4 weights (0.19894ms)
+✔ Completion-only requirement is separate from graduation (0.122266ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 188.226091

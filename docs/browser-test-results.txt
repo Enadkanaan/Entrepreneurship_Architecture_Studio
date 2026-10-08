@@ -1,0 +1,18 @@
+{
+  "routes": 39,
+  "responsiveWidths": [
+    1920,
+    1024,
+    390
+  ],
+  "checks": [
+    "program tabs",
+    "gate expansion",
+    "simulator failure",
+    "edit/save/reload",
+    "presentation keyboard",
+    "reduced motion",
+    "no runtime errors"
+  ],
+  "status": "PASS"
+}

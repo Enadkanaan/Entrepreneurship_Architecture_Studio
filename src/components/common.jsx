@@ -1,0 +1,16 @@
+import React,{useEffect,useRef} from 'react';
+import {useFramework} from '../lib/context';
+export function Icon({name='arrow',size=18}){const paths={arrow:'M4 12h16m-6-6 6 6-6 6',chevron:'m9 5 7 7-7 7',overview:'M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z',journey:'M4 17h4l4-10h8M4 17v-5M20 7v5',programs:'M3 6h18M3 12h12M3 18h16',gates:'M5 21V3h14v18M9 12h6',routing:'M4 4v8h8m0 0v8m0-8h8V4',kpis:'M4 20V10m8 10V4m8 16v-7',logic:'M4 5h16M4 12h16M4 19h10',search:'M10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14m5-2 6 6',edit:'m4 16 12-12 4 4L8 20H4z',present:'M3 4h18v12H3zM12 16v5m-5 0h10',close:'m6 6 12 12M6 18 18 6',download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',check:'m4 12 5 5L20 6',book:'M4 3h7v18H4zM11 3h9v18h-9',compare:'M4 5h6v14H4zM14 5h6v14h-6',plus:'M12 4v16M4 12h16'};return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={paths[name]||paths.arrow}/></svg>}
+export function Heading({eyebrow,title,description,children}){return <header className="view-heading"><div><div className="eyebrow">{eyebrow}</div><h1 tabIndex="-1">{title}</h1>{description&&<p className="lede">{description}</p>}</div>{children&&<div className="heading-actions">{children}</div>}</header>}
+export function Source({section}){return <small className="source">Source: {section==='Implementation'?'implementation note':`section ${section}`}</small>}
+export function Note({title,children,tone=''}){return <aside className={`note ${tone}`}><strong>{title}</strong><div>{children}</div></aside>}
+export function Field({label,value,section}){return <div className="field"><h3>{label}</h3><p>{value||'Not specified in the source.'}</p>{section&&<Source section={section}/>}</div>}
+export function Table({headers,rows}){return <div className="table-scroll"><table><thead><tr>{headers.map((h,i)=><th key={i} scope="col">{h}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((c,j)=>j===0?<th key={j} scope="row">{c}</th>:<td key={j}>{c}</td>)}</tr>)}</tbody></table></div>}
+export function Modal({title,children,onClose,wide=false}){
+ const ref=useRef(),previous=useRef(document.activeElement);
+ useEffect(()=>{const dialog=ref.current;dialog.showModal();return()=>{dialog.close();previous.current?.focus?.();};},[]);
+ return <dialog ref={ref} className={`modal ${wide?'wide':''}`} onCancel={onClose} onClick={e=>{if(e.target===e.currentTarget)onClose();}}><div className="modal-top"><h2>{title}</h2><button aria-label="Close dialog" onClick={onClose}><Icon name="close"/></button></div>{children}</dialog>;
+}
+export function EditButton({collection,entity,onEdit}){const {edit}=useFramework();return edit?<button className="edit-link" onClick={()=>onEdit(collection,entity)}><Icon name="edit" size={14}/>Edit</button>:null;}
+export function Empty({text='No matching records.'}){return <div className="empty">{text}</div>}
+export function ProgramSelect({data,value,onChange,all=false,label='Program'}){return <label className="control">{label}<select value={value} onChange={e=>onChange(e.target.value)}>{all&&<option value="all">All programs</option>}{data.programs.map(p=><option key={p.id} value={p.id}>{p.shortName}</option>)}</select></label>}

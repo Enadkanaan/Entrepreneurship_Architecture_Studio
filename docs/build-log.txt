@@ -1,0 +1,15 @@
+
+> entrepreneurship-architecture-studio@1.0.0 build
+> vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 440 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.58 kB │ gzip:   0.34 kB
+dist/assets/index-Cu2RG4eG.css   35.81 kB │ gzip:   8.21 kB
+dist/assets/react-C-pZSIWA.js     3.97 kB │ gzip:   1.43 kB
+dist/assets/motion-3oogrFBC.js  131.65 kB │ gzip:  43.33 kB
+dist/assets/index-CSQlvpX3.js   475.30 kB │ gzip: 138.82 kB
+✓ built in 6.10s
